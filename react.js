@@ -78,7 +78,6 @@ module.exports = {
         "react/jsx-pascal-case": "error",
         "react/jsx-props-no-multi-spaces": "error",
         "react/jsx-sort-props": "error",
-        "react/jsx-space-before-closing": "error",
         "react/jsx-tag-spacing": [
             "error",
             {
