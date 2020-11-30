@@ -1,0 +1,28 @@
+{
+  "name": "@rimac-automobili/eslint-config",
+  "version": "0.0.1",
+  "description": "A shareable ESLint configuration",
+  "author": "Rimac Automobili d.o.o.",
+  "license": "UNLICENSED",
+  "private": false,
+  "main": "index.js",
+  "scripts": {},
+  "files": [
+    "core.js",
+    "index.js",
+    "react.js"
+  ],
+  "engines": {
+    "node": ">=14.15"
+  },
+  "peerDependencies": {
+    "eslint": "^7",
+    "@typescript-eslint/eslint-plugin": "^4",
+    "@typescript-eslint/parser": "^4",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-jest": "^24",
+    "eslint-plugin-promise": "^4",
+    "eslint-plugin-react": "^7",
+    "eslint-plugin-react-hooks": "^4"
+  }
+}
