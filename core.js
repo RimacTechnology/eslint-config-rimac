@@ -32,10 +32,6 @@ module.exports = {
         ],
         "@typescript-eslint/comma-spacing": "error",
         "@typescript-eslint/consistent-indexed-object-style": "error",
-        "@typescript-eslint/consistent-type-definitions": [
-            "warn",
-            "type"
-        ],
         "@typescript-eslint/consistent-type-imports": [
             "error",
             {
