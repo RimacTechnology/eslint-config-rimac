@@ -118,14 +118,7 @@ module.exports = {
             "error",
             "never"
         ],
-        "@typescript-eslint/space-before-function-paren": [
-            "error",
-            {
-                "anonymous": "always",
-                "asyncArrow": "always",
-                "named": "always"
-            }
-        ],
+        "@typescript-eslint/space-before-function-paren": "error",
         "@typescript-eslint/switch-exhaustiveness-check": "warn",
         "@typescript-eslint/type-annotation-spacing": "error",
         "arrow-parens": [
