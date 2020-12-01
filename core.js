@@ -118,7 +118,7 @@ module.exports = {
             "error",
             "never"
         ],
-        "@typescript-eslint/space-before-function-paren": "error",
+        "@typescript-eslint/space-before-function-paren": ["error", "never"],
         "@typescript-eslint/switch-exhaustiveness-check": "warn",
         "@typescript-eslint/type-annotation-spacing": "error",
         "arrow-parens": [
