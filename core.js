@@ -72,7 +72,6 @@ module.exports = {
         "@typescript-eslint/no-explicit-any": "warn",
         "@typescript-eslint/no-extra-non-null-assertion": "error",
         "@typescript-eslint/no-floating-promises": "error",
-        "@typescript-eslint/no-implicit-any-catch": "error",
         "@typescript-eslint/no-inferrable-types": "error",
         "@typescript-eslint/no-invalid-void-type": "error",
         "@typescript-eslint/no-misused-promises": "error",
