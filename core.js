@@ -246,7 +246,6 @@ module.exports = {
         "no-useless-constructor": "off",
         "no-useless-escape": "error",
         "no-useless-return": "error",
-        "no-void": "error",
         "object-curly-newline": [
             "error",
             {
