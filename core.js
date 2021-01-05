@@ -234,7 +234,6 @@ module.exports = {
         "no-sparse-arrays": "error",
         "no-template-curly-in-string": "error",
         "no-throw-literal": "off",
-        "no-undef": "error",
         "no-undefined": "error",
         "no-unexpected-multiline": "error",
         "no-unreachable": "error",
