@@ -26,7 +26,7 @@ module.exports = {
                 "arrays": "always-multiline",
                 "exports": "always",
                 "functions": "only-multiline",
-                "imports": "never",
+                "imports": "always-multiline",
                 "objects": "always-multiline"
             }
         ],
