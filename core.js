@@ -219,6 +219,9 @@ module.exports = {
         "no-inner-declarations": "error",
         "no-irregular-whitespace": "error",
         "no-mixed-spaces-and-tabs": "error",
+        "no-multiple-empty-lines": ["error", {
+            "max": 1
+        }],
         "no-obj-calls": "error",
         "no-param-reassign": "error",
         "no-promise-executor-return": "error",
