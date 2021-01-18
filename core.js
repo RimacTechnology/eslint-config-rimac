@@ -184,6 +184,7 @@ module.exports = {
             }
         ],
         "multiline-ternary": "off",
+        "newline-before-return": "error",
         "newline-per-chained-call": [
             "error",
             {
