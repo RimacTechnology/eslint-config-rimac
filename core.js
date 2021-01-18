@@ -137,7 +137,6 @@ module.exports = {
         "func-call-spacing": "off",
         "import/default": "error",
         "import/export": "error",
-        "import/exports-last": "error",
         "import/named": "error",
         "import/newline-after-import": "error",
         "import/no-deprecated": "warn",
