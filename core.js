@@ -235,6 +235,7 @@ module.exports = {
         "no-shadow-restricted-names": "error",
         "no-sparse-arrays": "error",
         "no-template-curly-in-string": "error",
+        "no-trailing-spaces": "error",
         "no-throw-literal": "off",
         "no-unexpected-multiline": "error",
         "no-unreachable": "error",
