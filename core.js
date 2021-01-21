@@ -177,6 +177,7 @@ module.exports = {
             "prefer-double"
         ],
         "keyword-spacing": "off",
+        "key-spacing": "error",
         "max-len": [
             "error",
             {
