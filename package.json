@@ -1,6 +1,6 @@
 {
   "name": "@rimac-automobili/eslint-config",
-  "version": "1.0.12",
+  "version": "2.1.0",
   "description": "A shareable ESLint configuration",
   "author": "Rimac Automobili d.o.o.",
   "license": "UNLICENSED",
@@ -16,9 +16,7 @@
     "node": ">=14.15"
   },
   "peerDependencies": {
-    "eslint": "^7"
-  },
-  "dependencies": {
+    "eslint": "^7",
     "@typescript-eslint/eslint-plugin": "^4",
     "@typescript-eslint/parser": "^4",
     "eslint-plugin-import": "^2",

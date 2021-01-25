@@ -73,7 +73,6 @@ module.exports = {
         "@typescript-eslint/no-extra-non-null-assertion": "error",
         "@typescript-eslint/no-floating-promises": "error",
         "@typescript-eslint/no-inferrable-types": "error",
-        "@typescript-eslint/no-invalid-void-type": "error",
         "@typescript-eslint/no-misused-promises": "error",
         "@typescript-eslint/no-non-null-asserted-optional-chain": "error",
         "@typescript-eslint/no-non-null-assertion": "error",
@@ -138,7 +137,6 @@ module.exports = {
         "func-call-spacing": "off",
         "import/default": "error",
         "import/export": "error",
-        "import/exports-last": "error",
         "import/named": "error",
         "import/newline-after-import": "error",
         "import/no-deprecated": "warn",
@@ -179,6 +177,7 @@ module.exports = {
             "prefer-double"
         ],
         "keyword-spacing": "off",
+        "key-spacing": "error",
         "max-len": [
             "error",
             {
@@ -186,6 +185,7 @@ module.exports = {
             }
         ],
         "multiline-ternary": "off",
+        "newline-before-return": "error",
         "newline-per-chained-call": [
             "error",
             {
@@ -221,6 +221,9 @@ module.exports = {
         "no-irregular-whitespace": "error",
         "no-mixed-spaces-and-tabs": "error",
         "no-multi-spaces": "error",
+        "no-multiple-empty-lines": ["error", {
+            "max": 1
+        }],
         "no-obj-calls": "error",
         "no-param-reassign": "error",
         "no-promise-executor-return": "error",
@@ -233,6 +236,7 @@ module.exports = {
         "no-shadow-restricted-names": "error",
         "no-sparse-arrays": "error",
         "no-template-curly-in-string": "error",
+        "no-trailing-spaces": "error",
         "no-throw-literal": "off",
         "no-unexpected-multiline": "error",
         "no-unreachable": "error",
