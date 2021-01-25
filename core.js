@@ -220,6 +220,7 @@ module.exports = {
         "no-inner-declarations": "error",
         "no-irregular-whitespace": "error",
         "no-mixed-spaces-and-tabs": "error",
+        "no-multi-spaces": "error",
         "no-obj-calls": "error",
         "no-param-reassign": "error",
         "no-promise-executor-return": "error",
@@ -279,6 +280,7 @@ module.exports = {
                 "ignoreMemberSort": false
             }
         ],
+        "space-infix-ops": "error",
         "sort-keys": [
             "error",
             "asc",
