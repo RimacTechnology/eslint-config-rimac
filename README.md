@@ -2,12 +2,20 @@
 
 1. Install the library as a dev dependency alongside required dependencies using
 ```shell
-yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+yarn add -D 
+    @rimac-automobili/eslint-config/core 
+    eslint 
+    @typescript-eslint/parser
+    @typescript-eslint/eslint-plugin 
+    eslint-plugin-promise
+    eslint-plugin-import
 ```
 
-2. Setup the minimal required configuration as displayed below
+2. Set up the minimal required configuration as displayed below
 
-## Minimal Required Configuration
+### Minimal Required Configuration
+1. Create a new file in the `root` of the project called `.eslintrc.json`
+2. Place the following inside
 ```JSON
 {
     "extends": [
@@ -19,19 +27,23 @@ yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
     }
 }
 ```
-
-#### NOTE
-`project` path under `parserOptions` should point to the location of your `tsconfig.json` file
+3. Make sure the `project` (under `parserOptions`) is pointing to the correct path to your `tsconfig.json`
 
 ## Optional Rulesets
 
 ### React
+1. Install the necessary dependencies as dev dependencies
+```shell
+yarn add -D 
+    eslint-plugin-react 
+    eslint-plugin-react-hooks 
+```
+2. Add the following ruleset to your `.eslintrc.json` file under `extends` section (example below)
 ```JSON
 "@rimac-automobili/eslint-config/react"
 ```
 
-### Using option rulsets
-Add it to the `extends` array in the eslint config file like so
+### Using Optional Rulsets Example
 ```json
 {
   "extends": [
@@ -42,12 +54,16 @@ Add it to the `extends` array in the eslint config file like so
 ```
 
 ## Overriding or Adding Custom Rules
-Rules can be overridden by adding them to the `rules` section in eslint config like so
-
+Rules can be overridden by adding them to the `rules` section in `.eslintrc.json` like the following example
 ```json
 {
-  "rules": {
-    "@typescript-eslint/ban-types": "off"
-  }
+    "extends": [
+        "@rimac-automobili/eslint-config/core",
+        "@rimac-automobili/eslint-config/react"
+    ],
+    ...,
+    "rules": {
+        "space-infix-ops": "off"
+    }
 }
 ```
