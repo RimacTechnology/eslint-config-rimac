@@ -132,9 +132,14 @@ module.exports = {
                 "before": true
             }
         ],
+        "array-bracket-spacing": [
+            "error",
+            "never"
+        ],
         "brace-style": "off",
         "comma-dangle": "off",
         "comma-spacing": "off",
+        "computed-property-spacing": "error",
         "default-param-last": "off",
         "for-direction": "error",
         "func-call-spacing": "off",
@@ -290,6 +295,7 @@ module.exports = {
                 "ignoreMemberSort": false
             }
         ],
+        "space-in-parens": "error",
         "space-infix-ops": "error",
         "sort-keys": [
             "error",
