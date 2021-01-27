@@ -15,7 +15,8 @@ module.exports = {
         "@typescript-eslint",
         "import",
         "promise",
-        "unused-imports"
+        "unused-imports",
+        "modules-newline"
     ],
     "rules": {
         "@typescript-eslint/await-thenable": "error",
@@ -187,6 +188,7 @@ module.exports = {
             }
         ],
         "multiline-ternary": "off",
+        "modules-newline/import-declaration-newline": "error",
         "newline-before-return": "error",
         "newline-per-chained-call": [
             "error",
