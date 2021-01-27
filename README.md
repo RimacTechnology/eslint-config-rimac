@@ -29,7 +29,7 @@ yarn add -D
 ```
 3. Make sure the `project` (under `parserOptions`) is pointing to the correct path to your `tsconfig.json`
 
-## Optional Rulesets
+# Optional Rulesets
 
 ### React
 1. Install the necessary dependencies as dev dependencies
@@ -53,7 +53,15 @@ yarn add -D
 }
 ```
 
-## Overriding or Adding Custom Rules
+# Turn on ESLint in your Project
+
+## Intellij
+1. Go to `File>Settings>Languages & Frameworks>Javascript>Code Quality Tools>ESLint`
+2. Select `Automatic ESLint Configuration`
+3. Check `run eslint --fix on save`
+4. Apply settings
+
+# Overriding or Adding Custom Rules
 Rules can be overridden by adding them to the `rules` section in `.eslintrc.json` like the following example
 ```json
 {
