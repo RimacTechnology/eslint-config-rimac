@@ -262,6 +262,7 @@ module.exports = {
             "error",
             "always"
         ],
+        "padded-blocks": ["error", "never"],
         "prefer-promise-reject-errors": "error",
         "prefer-template": "error",
         "promise/catch-or-return": "error",
