@@ -14,7 +14,8 @@ module.exports = {
     "plugins": [
         "@typescript-eslint",
         "import",
-        "promise"
+        "promise",
+        "unused-imports"
     ],
     "rules": {
         "@typescript-eslint/await-thenable": "error",
@@ -83,6 +84,7 @@ module.exports = {
         "@typescript-eslint/no-unnecessary-type-arguments": "error",
         "@typescript-eslint/no-unnecessary-type-assertion": "error",
         "@typescript-eslint/no-unnecessary-type-constraint": "error",
+        "@typescript-eslint/no-unused-vars": "off",
         "@typescript-eslint/no-unused-expressions": "error",
         "@typescript-eslint/no-use-before-define": "warn",
         "@typescript-eslint/prefer-enum-initializers": "error",
@@ -299,6 +301,7 @@ module.exports = {
         "space-before-function-paren": "off",
         "template-curly-spacing": "error",
         "use-isnan": "error",
+        "unused-imports/no-unused-imports-ts": "error",
         "valid-typeof": "error",
         "wrap-iife": "error",
         "yoda": "error"
