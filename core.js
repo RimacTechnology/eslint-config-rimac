@@ -248,6 +248,7 @@ module.exports = {
         "no-useless-constructor": "off",
         "no-useless-escape": "error",
         "no-useless-return": "error",
+        "no-whitespace-before-property": "error",
         "object-curly-newline": [
             "error",
             {
