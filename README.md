@@ -6,9 +6,6 @@ yarn add -D
     @rimac-automobili/eslint-config/core 
     eslint 
     @typescript-eslint/parser
-    @typescript-eslint/eslint-plugin 
-    eslint-plugin-promise
-    eslint-plugin-import
 ```
 
 2. Set up the minimal required configuration as displayed below
@@ -32,13 +29,7 @@ yarn add -D
 # Optional Rulesets
 
 ### React
-1. Install the necessary dependencies as dev dependencies
-```shell
-yarn add -D 
-    eslint-plugin-react 
-    eslint-plugin-react-hooks 
-```
-2. Add the following ruleset to your `.eslintrc.json` file under `extends` section (example below)
+Add the following ruleset to your `.eslintrc.json` file under `extends` section (example below)
 ```JSON
 "@rimac-automobili/eslint-config/react"
 ```
