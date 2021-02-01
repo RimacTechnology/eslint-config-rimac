@@ -1,6 +1,6 @@
 module.exports = {
     "plugins": [ "type-graphql" ],
-    "rule": {
+    "rules": {
         "invalid-decorated-type": "error",
         "invalid-decorator-type": "error",
         "invalid-nullable-input-type": "error",
