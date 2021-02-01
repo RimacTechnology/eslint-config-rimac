@@ -17,7 +17,8 @@ module.exports = {
         "promise",
         "unused-imports",
         "modules-newline",
-        "sort-keys-fix"
+        "sort-keys-fix",
+        "sort-destructure-keys"
     ],
     "rules": {
         "@typescript-eslint/await-thenable": "error",
@@ -297,6 +298,7 @@ module.exports = {
             }
         ],
         "sort-keys-fix/sort-keys-fix": "error",
+        "sort-destructure-keys/sort-destructure-keys": "error",
         "space-in-parens": "error",
         "space-infix-ops": "error",
         "sort-keys": [
