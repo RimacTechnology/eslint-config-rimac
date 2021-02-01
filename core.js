@@ -116,11 +116,11 @@ module.exports = {
             "error",
             "never"
         ],
-        "@typescript-eslint/space-before-function-paren": ["error", {
+        "@typescript-eslint/space-before-function-paren": [ "error", {
             "anonymous": "never",
             "named": "never",
             "asyncArrow": "always"
-        }],
+        } ],
         "@typescript-eslint/switch-exhaustiveness-check": "warn",
         "@typescript-eslint/type-annotation-spacing": "error",
         "arrow-parens": [
@@ -232,9 +232,14 @@ module.exports = {
         "no-irregular-whitespace": "error",
         "no-mixed-spaces-and-tabs": "error",
         "no-multi-spaces": "error",
-        "no-multiple-empty-lines": ["error", {
-            "max": 1
-        }],
+        "no-multiple-empty-lines": [
+            "error",
+            {
+                "max": 1,
+                "maxEOF": 1,
+                "maxBOF": 0
+            }
+        ],
         "no-obj-calls": "error",
         "no-param-reassign": "error",
         "no-promise-executor-return": "error",
@@ -273,7 +278,7 @@ module.exports = {
             "error",
             "always"
         ],
-        "padded-blocks": ["error", "never"],
+        "padded-blocks": [ "error", "never" ],
         "prefer-promise-reject-errors": "error",
         "prefer-template": "error",
         "promise/catch-or-return": "error",
