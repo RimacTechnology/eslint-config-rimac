@@ -278,6 +278,7 @@ module.exports = {
             "error",
             "always"
         ],
+        "object-shorthand": "error",
         "padded-blocks": [ "error", "never" ],
         "prefer-promise-reject-errors": "error",
         "prefer-template": "error",
