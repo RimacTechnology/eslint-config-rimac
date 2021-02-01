@@ -1,4 +1,5 @@
 module.exports = {
     core: require('./core'),
     react: require('./react'),
+    jest: require('./jest'),
 }

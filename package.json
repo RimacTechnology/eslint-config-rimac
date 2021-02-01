@@ -10,7 +10,8 @@
   "files": [
     "core.js",
     "index.js",
-    "react.js"
+    "react.js",
+    "jest.js"
   ],
   "engines": {
     "node": ">=14.15"
@@ -22,6 +23,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.14.1",
     "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.3",
     "eslint-plugin-modules-newline": "^0.0.6",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.22.0",
