@@ -1,11 +1,11 @@
 module.exports = {
-    "plugins": [ "type-graphql" ],
+    "plugins": ["type-graphql"],
     "rules": {
-        "invalid-decorated-type": "error",
-        "invalid-decorator-type": "error",
-        "invalid-nullable-input-type": "error",
-        "invalid-nullable-output-type": "error",
-        "missing-decorator-type": "error",
-        "wrong-decorator-signature": "error"
+        "type-graphql/invalid-decorated-type": "error",
+        "type-graphql/invalid-decorator-type": "error",
+        "type-graphql/invalid-nullable-input-type": "error",
+        "type-graphql/invalid-nullable-output-type": "error",
+        "type-graphql/missing-decorator-type": "error",
+        "type-graphql/wrong-decorator-signature": "error"
     }
 }
