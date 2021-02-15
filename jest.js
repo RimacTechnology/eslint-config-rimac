@@ -35,13 +35,13 @@ module.exports = {
         "jest/valid-expect": "error",
         "jest/valid-expect-in-promise": "error",
         "jest/valid-title": "error",
-        "padding-around-after-all-blocks": "error",
-        "padding-around-after-each-blocks": "error",
-        "padding-around-before-all-blocks": "error",
-        "padding-around-before-each-blocks": "error",
-        "padding-around-expect-groups": "error",
-        "padding-around-describe-blocks": "error",
-        "padding-around-test-blocks": "error",
+        "jest-formatting/padding-around-after-all-blocks": "error",
+        "jest-formatting/padding-around-after-each-blocks": "error",
+        "jest-formatting/padding-around-before-all-blocks": "error",
+        "jest-formatting/padding-around-before-each-blocks": "error",
+        "jest-formatting/padding-around-expect-groups": "error",
+        "jest-formatting/padding-around-describe-blocks": "error",
+        "jest-formatting/padding-around-test-blocks": "error",
 
         // "prefer-called-with":  // TODO "FIND THE RULE"
         // "prefer-expect-assertions": // TODO "FIND THE RULE"
