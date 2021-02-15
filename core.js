@@ -143,6 +143,7 @@ module.exports = {
         "comma-spacing": "off",
         "computed-property-spacing": "error",
         "default-param-last": "off",
+        "eqeqeq": "error",
         "for-direction": "error",
         "func-call-spacing": "off",
         "import/default": "error",
