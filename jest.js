@@ -1,9 +1,11 @@
 module.exports = {
-    "plugins": ["jest"],
+    "plugins": [
+        "jest",
+        "jest-formatting"
+    ],
     "rules": {
-        "jest/consistent-test-it": [ "error", { "fn": "it", "withinDescribe": "test" } ],
+        "jest/consistent-test-it": ["error", {"fn": "it", "withinDescribe": "test"}],
         "jest/expect-expect": "error",
-        "jest/lowercase-name": "error",
         "jest/no-commented-out-tests": "error",
         "jest/no-conditional-expect": "error",
         "jest/no-deprecated-functions": "error",
@@ -32,9 +34,16 @@ module.exports = {
         "jest/valid-describe": "error",
         "jest/valid-expect": "error",
         "jest/valid-expect-in-promise": "error",
-        "jest/valid-title": "error"
+        "jest/valid-title": "error",
+        "padding-around-after-all-blocks": "error",
+        "padding-around-after-each-blocks": "error",
+        "padding-around-before-all-blocks": "error",
+        "padding-around-before-each-blocks": "error",
+        "padding-around-expect-groups": "error",
+        "padding-around-describe-blocks": "error",
+        "padding-around-test-blocks": "error",
 
-        // "prefer-called-with": "FIND THE RULE"
-        // "prefer-expect-assertions": "FIND THE RULE"
+        // "prefer-called-with":  // TODO "FIND THE RULE"
+        // "prefer-expect-assertions": // TODO "FIND THE RULE"
     }
 }
