@@ -4,7 +4,7 @@ module.exports = {
         "jest-formatting"
     ],
     "rules": {
-        "jest/consistent-test-it": ["error", {"fn": "it", "withinDescribe": "test"}],
+        "jest/consistent-test-it": "error",
         "jest/expect-expect": "error",
         "jest/no-commented-out-tests": "error",
         "jest/no-conditional-expect": "error",
