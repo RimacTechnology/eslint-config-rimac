@@ -308,15 +308,6 @@ module.exports = {
         "sort-destructure-keys/sort-destructure-keys": "error",
         "space-in-parens": "error",
         "space-infix-ops": "error",
-        "sort-keys": [
-            "error",
-            "asc",
-            {
-                "caseSensitive": true,
-                "minKeys": 2,
-                "natural": false
-            }
-        ],
         "space-before-function-paren": "off",
         "template-curly-spacing": "error",
         "use-isnan": "error",
