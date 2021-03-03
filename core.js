@@ -18,7 +18,8 @@ module.exports = {
         "unused-imports",
         "modules-newline",
         "sort-keys-fix",
-        "sort-destructure-keys"
+        "sort-destructure-keys",
+        "typescript-sort-keys"
     ],
     "rules": {
         "@typescript-eslint/await-thenable": "error",
@@ -310,6 +311,8 @@ module.exports = {
         "space-infix-ops": "error",
         "space-before-function-paren": "off",
         "template-curly-spacing": "error",
+        "typescript-sort-keys/interface": "error",
+        "typescript-sort-keys/string-enum": "error",
         "use-isnan": "error",
         "unused-imports/no-unused-imports-ts": "error",
         "valid-typeof": "error",
