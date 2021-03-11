@@ -19,7 +19,8 @@ module.exports = {
         "modules-newline",
         "sort-keys-fix",
         "sort-destructure-keys",
-        "typescript-sort-keys"
+        "typescript-sort-keys",
+        "unicorn"
     ],
     "rules": {
         "@typescript-eslint/await-thenable": "error",
@@ -322,8 +323,58 @@ module.exports = {
         "typescript-sort-keys/string-enum": "error",
         "use-isnan": "error",
         "unused-imports/no-unused-imports-ts": "error",
+        "unicorn/no-abusive-eslint-disable": "error",
+        "unicorn/no-array-callback-reference": "error",
+        "unicorn/no-for-loop": "error",
+        "unicorn/no-instanceof-array": "error",
+        "unicorn/no-lonely-if": "error",
+        "unicorn/no-nested-ternary": "error",
+        "no-nested-ternary": "off",
+        "unicorn/no-new-buffer": "error",
+        "unicorn/no-object-as-default-parameter": "error",
+        "unicorn/no-this-assignment": "error",
+        "unicorn/no-unreadable-array-destructuring": "error",
+        "unicorn/no-unsafe-regex": "error",
+        "unicorn/no-zero-fractions": "error",
+        "unicorn/prefer-array-flat-map": "error",
+        "unicorn/numeric-separators-style": "error",
+        "unicorn/prefer-array-find": "error",
+        "unicorn/catch-error-name": "error",
+        "unicorn/consistent-destructuring": "error",
+        "unicorn/custom-error-definition": "error",
+        "unicorn/empty-brace-spaces": "error",
+        "unicorn/error-message": "error",
+        "unicorn/escape-case": "error",
+        "unicorn/new-for-builtins": "error",
+        "unicorn/prefer-array-some": "error",
+        "unicorn/prefer-date-now": "error",
+        "unicorn/prefer-default-parameters": "error",
+        "unicorn/prefer-includes": "error",
+        "unicorn/prefer-keyboard-event-key": "error",
+        "unicorn/prefer-math-trunc": "error",
+        "unicorn/prefer-modern-dom-apis": "error",
+        "unicorn/prefer-negative-index": "error",
+        "unicorn/prefer-number-properties": "error",
+        "unicorn/prefer-optional-catch-binding": "error",
+        "unicorn/prefer-set-has": "error",
+        "unicorn/prefer-spread": "error",
+        "unicorn/prefer-string-replace-all": "error",
+        "unicorn/prefer-string-slice": "error",
+        "unicorn/prefer-string-starts-ends-with": "error",
+        "unicorn/prefer-string-trim-start-end": "error",
+        "unicorn/prefer-type-error": "error",
+        "unicorn/prevent-abbreviations": [
+            "error",
+            {
+                "whitelist": {
+                    "props": true,
+                    "Props": true
+                }
+            }
+        ],
+        "unicorn/throw-new-error": "error",
         "valid-typeof": "error",
         "wrap-iife": "error",
-        "yoda": "error"
+        "yoda": "error",
     }
 }
