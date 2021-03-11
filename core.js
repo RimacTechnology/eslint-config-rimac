@@ -324,7 +324,6 @@ module.exports = {
         "use-isnan": "error",
         "unused-imports/no-unused-imports-ts": "error",
         "unicorn/no-abusive-eslint-disable": "error",
-        "unicorn/no-array-callback-reference": "error",
         "unicorn/no-for-loop": "error",
         "unicorn/no-instanceof-array": "error",
         "unicorn/no-lonely-if": "error",
@@ -368,7 +367,15 @@ module.exports = {
             {
                 "whitelist": {
                     "props": true,
-                    "Props": true
+                    "Props": true,
+                    "ref": true,
+                    "Ref": true,
+                    "params": true,
+                    "Params": true,
+                    "param": true,
+                    "Param": true,
+                    "prop": true,
+                    "Prop": true
                 }
             }
         ],
