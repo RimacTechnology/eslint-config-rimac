@@ -375,7 +375,9 @@ module.exports = {
                     "param": true,
                     "Param": true,
                     "prop": true,
-                    "Prop": true
+                    "Prop": true,
+                    "prev": true,
+                    "Prev": true
                 }
             }
         ],
