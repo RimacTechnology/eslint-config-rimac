@@ -301,6 +301,13 @@ module.exports = {
         "radix": "error",
         "require-atomic-updates": "error",
         "require-await": "off",
+        "no-control-regex": "error",
+        "no-invalid-regexp": "error",
+        "no-regex-spaces": "error",
+        "no-div-regex": "error",
+        "prefer-regex-literals": ["error", { "disallowRedundantWrapping": true }],
+        "require-unicode-regexp": "error",
+        "wrap-regex": "error",
         "rest-spread-spacing": [
             "error"
         ],
@@ -362,6 +369,7 @@ module.exports = {
         "unicorn/prefer-string-starts-ends-with": "error",
         "unicorn/prefer-string-trim-start-end": "error",
         "unicorn/prefer-type-error": "error",
+        "unicorn/better-regex": "error",
         "unicorn/prevent-abbreviations": [
             "error",
             {
