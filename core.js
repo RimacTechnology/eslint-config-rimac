@@ -378,6 +378,8 @@ module.exports = {
                     "Props": true,
                     "ref": true,
                     "Ref": true,
+                    "Refs": true,
+                    "refs": true,
                     "params": true,
                     "Params": true,
                     "param": true,
