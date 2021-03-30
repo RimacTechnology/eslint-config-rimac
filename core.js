@@ -386,7 +386,11 @@ module.exports = {
                     "prop": true,
                     "Prop": true,
                     "prev": true,
-                    "Prev": true
+                    "Prev": true,
+                    "Arg": true,
+                    "Args": true,
+                    "arg": true,
+                    "args": true
                 }
             }
         ],
