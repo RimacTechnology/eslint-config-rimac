@@ -106,7 +106,7 @@ module.exports = {
                 "html": true
             }
         ],
-        "react/jsx-new-line": [
+        "react/jsx-newline": [
             "error",
             {
                 "prevent": "true"
