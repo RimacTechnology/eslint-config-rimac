@@ -3,9 +3,9 @@
 1. Install the library as a dev dependency alongside required dependencies using
 ```shell
 yarn add -D 
-    @rimac-automobili/eslint-config/core 
-    eslint 
+    @rimac-automobili/eslint-config
     @typescript-eslint/parser
+    eslint 
 ```
 
 2. Set up the minimal required configuration as displayed below
@@ -30,9 +30,9 @@ yarn add -D
 
 ### React
 Add the following ruleset to your `.eslintrc.json` file under `extends` section (example below)
-```JSON
-"@rimac-automobili/eslint-config/react"
-```
+- `"@rimac-automobili/eslint-config/react"`
+- `"@rimac-automobili/eslint-config/jest"`
+- `"@rimac-automobili/eslint-config/type-graphql"`
 
 ### Using Optional Rulsets Example
 ```json
