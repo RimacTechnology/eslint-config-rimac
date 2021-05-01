@@ -367,7 +367,7 @@ module.exports = {
         "unicorn/prevent-abbreviations": [
             "error",
             {
-                "whitelist": {
+                "allowList": {
                     "props": true,
                     "Props": true,
                     "ref": true,

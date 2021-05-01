@@ -105,6 +105,12 @@ module.exports = {
                 "component": true,
                 "html": true
             }
+        ],
+        "react/jsx-new-line": [
+            "error",
+            {
+                "prevent": "true"
+            }
         ]
     }
 }
