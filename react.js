@@ -109,7 +109,7 @@ module.exports = {
         "react/jsx-newline": [
             "error",
             {
-                "prevent": "true"
+                "prevent": true
             }
         ]
     }
