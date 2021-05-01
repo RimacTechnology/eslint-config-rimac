@@ -284,10 +284,6 @@ module.exports = {
                 }
             }
         ],
-        "object-curly-spacing": [
-            "error",
-            "always"
-        ],
         "object-shorthand": "error",
         "padded-blocks": [ "error", "never" ],
         "prefer-promise-reject-errors": "error",
@@ -323,7 +319,6 @@ module.exports = {
         "sort-keys-fix/sort-keys-fix": "error",
         "sort-destructure-keys/sort-destructure-keys": "error",
         "space-in-parens": "error",
-        "space-infix-ops": "error",
         "space-before-function-paren": "off",
         "template-curly-spacing": "error",
         "typescript-sort-keys/interface": "error",
@@ -398,5 +393,14 @@ module.exports = {
         "valid-typeof": "error",
         "wrap-iife": "error",
         "yoda": "error",
+        "space-infix-ops": "off",
+        "@typescript-eslint/space-infix-ops": "error",
+        "@typescript-eslint/sort-type-union-intersection-members": "error",
+        "object-curly-spacing": "off",
+        "@typescript-eslint/object-curly-spacing": [
+            "error",
+            "always"
+        ],
+        "@typescript-eslint/prefer-regexp-exec": "error"
     }
 }
