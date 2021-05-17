@@ -30,6 +30,7 @@ yarn add -D
 
 ### React
 Add the following ruleset to your `.eslintrc.json` file under `extends` section (example below)
+
 - `"@rimac-automobili/eslint-config/react"`
 - `"@rimac-automobili/eslint-config/jest"`
 - `"@rimac-automobili/eslint-config/type-graphql"`
