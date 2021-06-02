@@ -162,6 +162,7 @@ module.exports = {
         "import/no-deprecated": "warn",
         "import/no-duplicates": "error",
         "import/no-named-as-default": "error",
+        "import/no-relative-packages": "error",
         "import/no-named-default": "error",
         "import/no-self-import": "error",
         "import/no-useless-path-segments": [
