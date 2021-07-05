@@ -1,3 +1,14 @@
+# Yarn not using Zero-Installs
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Yarn Integrity file
+.yarn-integrity
+
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs
@@ -67,8 +78,6 @@ web_modules/
 # Output of 'npm pack'
 *.tgz
 
-# Yarn Integrity file
-.yarn-integrity
 
 # dotenv environment variables file
 .env
@@ -106,13 +115,6 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
-
-# yarn v2
-.yarn/cache
-.yarn/unplugged
-.yarn/build-state.yml
-.yarn/install-state.gz
-.pnp.*
 
 ### VisualStudioCode template
 .vscode/*
