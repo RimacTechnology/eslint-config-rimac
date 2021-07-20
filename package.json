@@ -7,13 +7,13 @@
   "main": "index.js",
   "scripts": {},
   "files": [
-    "core.js",
-    "index.js",
-    "react.js",
-    "jest.js",
-    "type-graphql.js",
-    "next.js",
-    "testing-library.js"
+    "./src/core.js",
+    "./src/index.js",
+    "./src/react.js",
+    "./src/jest.js",
+    "./src/type-graphql.js",
+    "./src/next.js",
+    "./src/testing-library.js"
   ],
   "engines": {
     "node": ">=14.17"
