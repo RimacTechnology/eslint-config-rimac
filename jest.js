@@ -42,8 +42,6 @@ module.exports = {
         "jest-formatting/padding-around-expect-groups": "error",
         "jest-formatting/padding-around-describe-blocks": "error",
         "jest-formatting/padding-around-test-blocks": "error",
-
-        // "prefer-called-with":  // TODO "FIND THE RULE"
-        // "prefer-expect-assertions": // TODO "FIND THE RULE"
+        "jest/prefer-called-with": "error"
     }
 }
