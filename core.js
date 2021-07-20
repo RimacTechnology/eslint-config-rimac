@@ -23,7 +23,8 @@ module.exports = {
         "unicorn",
         "sort-class-members",
         "workspaces",
-        "more"
+        "more",
+        "sonarjs"
     ],
     "rules": {
         "@typescript-eslint/await-thenable": "error",
@@ -432,6 +433,30 @@ module.exports = {
         "workspaces/require-dependency": "error",
         "more/no-void-map": "error",
         "more/prefer-includes": "error",
-        "more/no-hardcoded-password": "warn"
+        "more/no-hardcoded-password": "warn",
+        "sonarjs/no-all-duplicated-branches": "error",
+        "sonarjs/no-duplicated-branches": "error",
+        "sonarjs/no-empty-collection": "error",
+        "sonarjs/no-identical-conditions": "error",
+        "sonarjs/no-identical-expressions": "error",
+        "sonarjs/no-ignored-return": "error",
+        "sonarjs/no-one-iteration-loop": "error",
+        "sonarjs/no-use-of-empty-return-value": "error",
+        "sonarjs/no-collection-size-mischeck": "error",
+        "sonarjs/no-duplicate-string": "error",
+        "sonarjs/no-gratuitous-expressions": "error",
+        "sonarjs/no-identical-functions": "error",
+        "sonarjs/no-inverted-boolean-check": "error",
+        "sonarjs/no-nested-switch": "error",
+        "sonarjs/no-redundant-boolean": "error",
+        "sonarjs/no-redundant-jump": "error",
+        "sonarjs/no-same-line-conditional": "error",
+        "sonarjs/no-small-switch": "error",
+        "sonarjs/no-unused-collection": "error",
+        "sonarjs/prefer-immediate-return": "error",
+        "sonarjs/prefer-object-literal": "error",
+        "sonarjs/prefer-single-boolean-return": "error",
+        "sonarjs/prefer-while": "error",
+        "sonarjs/cognitive-complexity": ["warn", 15]
     }
 }
