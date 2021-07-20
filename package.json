@@ -11,7 +11,8 @@
     "index.js",
     "react.js",
     "jest.js",
-    "type-graphql.js"
+    "type-graphql.js",
+    "next.js"
   ],
   "engines": {
     "node": ">=14.17"
@@ -22,6 +23,7 @@
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "eslint-config-next": "^11.0.1",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jest": "^24.3.6",
     "eslint-plugin-jest-formatting": "^3.0.0",
