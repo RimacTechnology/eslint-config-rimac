@@ -1,13 +1,13 @@
 {
   "name": "@rimac-automobili/eslint-config",
-  "version": "17.0.5",
+  "version": "17.0.6",
   "description": "A shareable ESLint configuration",
   "author": "Rimac Automobili d.o.o.",
   "license": "UNLICENSED",
   "main": "index.js",
   "scripts": {},
   "files": [
-      "src"
+    "src"
   ],
   "engines": {
     "node": ">=14.17"
