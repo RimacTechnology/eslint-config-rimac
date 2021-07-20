@@ -21,7 +21,8 @@ module.exports = {
         "sort-destructure-keys",
         "typescript-sort-keys",
         "unicorn",
-        "sort-class-members"
+        "sort-class-members",
+        "workspaces"
     ],
     "rules": {
         "@typescript-eslint/await-thenable": "error",
@@ -424,6 +425,9 @@ module.exports = {
                     "[everything-else]"
                 ]
             }
-        ]
+        ],
+        "workspaces/no-absolute-imports": "error",
+        "workspaces/no-relative-imports": "error",
+        "workspaces/require-dependency": "error"
     }
 }
