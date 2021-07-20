@@ -20,7 +20,8 @@ module.exports = {
         "sort-keys-fix",
         "sort-destructure-keys",
         "typescript-sort-keys",
-        "unicorn"
+        "unicorn",
+        "sort-class-members"
     ],
     "rules": {
         "@typescript-eslint/await-thenable": "error",
@@ -402,6 +403,27 @@ module.exports = {
             "error",
             "always"
         ],
-        "@typescript-eslint/prefer-regexp-exec": "error"
+        "@typescript-eslint/prefer-regexp-exec": "error",
+        "sort-class-members/sort-class-members": [
+            "error",
+            {
+                "order": [
+                    "[static-properties]",
+                    "[static-methods]",
+                    "[properties]",
+                    "constructor",
+                    "[getters]",
+                    "[setters]",
+                    "[conventional-private-properties]",
+                    "[conventional-private-methods]",
+
+                    "[arrow-function-properties]",
+                    "[methods]",
+                    "[async-methods]",
+
+                    "[everything-else]"
+                ]
+            }
+        ]
     }
 }

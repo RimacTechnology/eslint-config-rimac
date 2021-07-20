@@ -401,6 +401,7 @@ __metadata:
     eslint-plugin-promise: ^5.1.0
     eslint-plugin-react: ^7.24.0
     eslint-plugin-react-hooks: ^4.2.0
+    eslint-plugin-sort-class-members: ^1.11.0
     eslint-plugin-sort-destructure-keys: ^1.3.5
     eslint-plugin-sort-keys-fix: ^1.1.1
     eslint-plugin-type-graphql: ^0.3.0
@@ -1435,6 +1436,15 @@ __metadata:
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7
   checksum: 256e25dc8dde4664361b4a47ee452065444491fb5e694b52f9c5f56b8d8bd25c6e7ac660d722b234c7fdc7d29a1dffebdc30c9b7eee4f840d883da922882460a
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-sort-class-members@npm:^1.11.0":
+  version: 1.11.0
+  resolution: "eslint-plugin-sort-class-members@npm:1.11.0"
+  peerDependencies:
+    eslint: ">=0.8.0"
+  checksum: 75c64a82501140c741d0bc4971c377f90f04be5d543cbb815cb767321e16fd75d07f3b39e5213fcdf8df761a28e40dadcc9bdd690d03839eb15ab07dcb55a470
   languageName: node
   linkType: hard
 
