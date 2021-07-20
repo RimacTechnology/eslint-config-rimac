@@ -441,7 +441,6 @@ module.exports = {
         "sonarjs/no-one-iteration-loop": "error",
         "sonarjs/no-use-of-empty-return-value": "error",
         "sonarjs/no-collection-size-mischeck": "error",
-        "sonarjs/no-duplicate-string": "error",
         "sonarjs/no-gratuitous-expressions": "error",
         "sonarjs/no-inverted-boolean-check": "error",
         "sonarjs/no-nested-switch": "error",
