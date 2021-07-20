@@ -416,6 +416,7 @@ __metadata:
     eslint-plugin-sort-class-members: ^1.11.0
     eslint-plugin-sort-destructure-keys: ^1.3.5
     eslint-plugin-sort-keys-fix: ^1.1.1
+    eslint-plugin-testing-library: ^4.9.1
     eslint-plugin-type-graphql: ^0.3.0
     eslint-plugin-typescript-sort-keys: ^1.7.0
     eslint-plugin-unicorn: ^34.0.1
@@ -519,6 +520,22 @@ __metadata:
   peerDependencies:
     eslint: "*"
   checksum: 0d9de633cbdab76a25dabec29759a21d110879d301cb7ccec230ef2d406b8502d18e1a65016113a1f747d618e38431352520c65687d84694a69ff25fd973c0e9
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/experimental-utils@npm:^4.24.0":
+  version: 4.28.4
+  resolution: "@typescript-eslint/experimental-utils@npm:4.28.4"
+  dependencies:
+    "@types/json-schema": ^7.0.7
+    "@typescript-eslint/scope-manager": 4.28.4
+    "@typescript-eslint/types": 4.28.4
+    "@typescript-eslint/typescript-estree": 4.28.4
+    eslint-scope: ^5.1.1
+    eslint-utils: ^3.0.0
+  peerDependencies:
+    eslint: "*"
+  checksum: 8bb463ae1dcfd18417237abe4a1716fa6a7b459fc9cb131fdd6ba820e48bb60614a47d0cbd3693b08a12e5fed60dfafe872eb6bfdc23c42da9dbe627f24f9b54
   languageName: node
   linkType: hard
 
@@ -1521,6 +1538,17 @@ __metadata:
   dependencies:
     requireindex: ~1.2.0
   checksum: f2306e43cb1942ca258955aca293cbee598938c14eccacda01434d8ac554ce51b5228e7746b4d52778a551d609291aca2367f739fbbbe6d017a4ddf20da1e039
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-testing-library@npm:^4.9.1":
+  version: 4.9.1
+  resolution: "eslint-plugin-testing-library@npm:4.9.1"
+  dependencies:
+    "@typescript-eslint/experimental-utils": ^4.24.0
+  peerDependencies:
+    eslint: ^7.5.0
+  checksum: 24f9baab70f8ff1a121123aadcbbb72ebacf6cc2425576e293f674878ad16b556b165ae0c357240136aa723b628d807a4e3c7c21ac7d36b9a36656509527086b
   languageName: node
   linkType: hard
 
