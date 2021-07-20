@@ -1,8 +1,8 @@
 module.exports = {
-    core: require('./src/core'),
-    react: require('./src/react'),
-    jest: require('./src/jest'),
-    typeGraphql: require('./src/type-graphql'),
-    next: require('./src/next'),
-    testingLibrary: require('./src/testing-library'),
+    core: require('./core'),
+    react: require('./react'),
+    jest: require('./jest'),
+    typeGraphql: require('./type-graphql'),
+    next: require('./next'),
+    testingLibrary: require('./testing-library'),
 }
