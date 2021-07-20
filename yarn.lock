@@ -398,6 +398,7 @@ __metadata:
     eslint-plugin-jest: ^24.3.6
     eslint-plugin-jest-formatting: ^3.0.0
     eslint-plugin-modules-newline: ^0.0.6
+    eslint-plugin-more: ^1.0.3
     eslint-plugin-promise: ^5.1.0
     eslint-plugin-react: ^7.24.0
     eslint-plugin-react-hooks: ^4.2.0
@@ -1396,6 +1397,15 @@ __metadata:
   dependencies:
     requireindex: ~1.1.0
   checksum: a326ea5c9606724b7bfb014e7ffb82f7d4ccc690f2cf1616380de03f3e3dc23634a032081c4b58b9d6b2a7a32169240485d027f9ca2e48d1ab9ea0f87c578fa1
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-more@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "eslint-plugin-more@npm:1.0.3"
+  peerDependencies:
+    eslint: ^3 || ^4 || ^5 || ^6 || ^7
+  checksum: 4397ef0cb83d28c3bdc3ecc7ac61dab9465f9761decbf6b0b2b675cf1d597ae8bab5bfd767f6308e00794390f0d09f1b8e1dacd44ae2ff52ac71c45c18a89352
   languageName: node
   linkType: hard
 

@@ -22,7 +22,8 @@ module.exports = {
         "typescript-sort-keys",
         "unicorn",
         "sort-class-members",
-        "workspaces"
+        "workspaces",
+        "more"
     ],
     "rules": {
         "@typescript-eslint/await-thenable": "error",
@@ -428,6 +429,9 @@ module.exports = {
         ],
         "workspaces/no-absolute-imports": "error",
         "workspaces/no-relative-imports": "error",
-        "workspaces/require-dependency": "error"
+        "workspaces/require-dependency": "error",
+        "more/no-void-map": "error",
+        "more/prefer-includes": "error",
+        "more/no-hardcoded-password": "warn"
     }
 }
