@@ -219,7 +219,7 @@ module.exports = {
             }
         ],
         "no-async-promise-executor": "error",
-        "no-await-in-loop": "error",
+        "no-await-in-loop": "warn",
         "no-case-declarations": "error",
         "no-compare-neg-zero": "error",
         "no-cond-assign": "error",
