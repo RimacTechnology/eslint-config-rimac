@@ -432,7 +432,6 @@ module.exports = {
         "workspaces/no-relative-imports": "error",
         "workspaces/require-dependency": "error",
         "more/no-void-map": "error",
-        "more/no-hardcoded-password": "warn",
         "sonarjs/no-all-duplicated-branches": "error",
         "sonarjs/no-duplicated-branches": "error",
         "sonarjs/no-empty-collection": "error",
