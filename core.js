@@ -389,7 +389,8 @@ module.exports = {
                     "Arg": true,
                     "Args": true,
                     "arg": true,
-                    "args": true
+                    "args": true,
+                    "env": true
                 }
             }
         ],
