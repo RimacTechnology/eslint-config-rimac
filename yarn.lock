@@ -335,10 +335,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:11.0.1":
-  version: 11.0.1
-  resolution: "@next/eslint-plugin-next@npm:11.0.1"
-  checksum: ffcb34700f1305721508b2b8aecb411d3976aa841f162def821b161ec962c9903ab11308f5bd198d4a7998ddc63805c5c04d578a98d3b2c28f036fc40f0a6b9b
+"@next/eslint-plugin-next@npm:12.0.1":
+  version: 12.0.1
+  resolution: "@next/eslint-plugin-next@npm:12.0.1"
+  dependencies:
+    glob: 7.1.7
+  checksum: d89a672da155c4758df4cf8d2feb1acb4c6a3ecf1255d9b1f2a42855c77b5e910d0dc1ab0d027541794c64629b1eaf9d929182dfad45e4697098d9ff65c1e1b5
   languageName: node
   linkType: hard
 
@@ -375,7 +377,7 @@ __metadata:
   dependencies:
     "@typescript-eslint/eslint-plugin": 5.2.0
     "@typescript-eslint/parser": ^5.2.0
-    eslint-config-next: ^11.0.1
+    eslint-config-next: ^12.0.1
     eslint-plugin-import: ^2.25.2
     eslint-plugin-jest: ^25.2.2
     eslint-plugin-jest-formatting: ^3.0.0
@@ -1181,11 +1183,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:^11.0.1":
-  version: 11.0.1
-  resolution: "eslint-config-next@npm:11.0.1"
+"eslint-config-next@npm:^12.0.1":
+  version: 12.0.1
+  resolution: "eslint-config-next@npm:12.0.1"
   dependencies:
-    "@next/eslint-plugin-next": 11.0.1
+    "@next/eslint-plugin-next": 12.0.1
     "@rushstack/eslint-patch": ^1.0.6
     "@typescript-eslint/parser": ^4.20.0
     eslint-import-resolver-node: ^0.3.4
@@ -1201,7 +1203,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 039fbaba1a89f55f2090f3ca99e206909fe3544cdca2a1d34ae1263d9f02990292cee9c3eae83e362b1bce9a8eed80e5f23d163e05e372b6e5dd641fcdfaa1bb
+  checksum: ab557833a78627d281dfabf37dbe274ad3481b80ade3195ee43dd79c59ee9ba9256487e268d238b8abae12fd8ddfe1fa96abcd5b5f02a5b78c923861ff38ba1e
   languageName: node
   linkType: hard
 
@@ -1818,7 +1820,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^7.1.2":
+"glob@npm:7.1.7, glob@npm:^7.1.2":
   version: 7.1.7
   resolution: "glob@npm:7.1.7"
   dependencies:
