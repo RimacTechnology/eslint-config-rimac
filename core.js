@@ -331,6 +331,8 @@ module.exports = {
         "typescript-sort-keys/string-enum": "error",
         "use-isnan": "error",
         "unused-imports/no-unused-imports-ts": "error",
+        "unicorn/no-empty-file": "error",
+        "unicorn/prefer-export-from": "error",
         "unicorn/no-abusive-eslint-disable": "error",
         "unicorn/no-for-loop": "error",
         "unicorn/no-instanceof-array": "error",
@@ -348,7 +350,6 @@ module.exports = {
         "unicorn/no-useless-fallback-in-spread": "error",
         "unicorn/no-invalid-remove-event-listener": "error",
         "unicorn/prefer-array-flat-map": "error",
-        "unicorn/prefer-object-from-entries": "error",
         "unicorn/numeric-separators-style": "error",
         "unicorn/prefer-array-find": "error",
         "unicorn/catch-error-name": "error",
@@ -413,27 +414,29 @@ module.exports = {
             "always"
         ],
         "@typescript-eslint/prefer-regexp-exec": "error",
-        "sort-class-members/sort-class-members": [
-            "error",
-            {
-                "order": [
-                    "[static-properties]",
-                    "[static-methods]",
-                    "[properties]",
-                    "constructor",
-                    "[getters]",
-                    "[setters]",
-                    "[conventional-private-properties]",
-                    "[conventional-private-methods]",
-
-                    "[arrow-function-properties]",
-                    "[methods]",
-                    "[async-methods]",
-
-                    "[everything-else]"
-                ]
-            }
-        ],
+        // NOTE: Currently broken
+        // https://github.com/bryanrsmith/eslint-plugin-sort-class-members/issues/71
+        // "sort-class-members/sort-class-members": [
+        //     "error",
+        //     {
+        //         "order": [
+        //             "[static-properties]",
+        //             "[static-methods]",
+        //             "[properties]",
+        //             "constructor",
+        //             "[getters]",
+        //             "[setters]",
+        //             "[conventional-private-properties]",
+        //             "[conventional-private-methods]",
+        //
+        //             "[arrow-function-properties]",
+        //             "[methods]",
+        //             "[async-methods]",
+        //
+        //             "[everything-else]"
+        //         ]
+        //     }
+        // ],
         "workspaces/no-absolute-imports": "error",
         "workspaces/no-relative-imports": "error",
         "workspaces/require-dependency": "error",
