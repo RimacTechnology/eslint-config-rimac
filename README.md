@@ -1,43 +1,46 @@
 # Usage
 
 1. Install the library as a dev dependency alongside required dependencies using
-```shell
-yarn add -D 
-    @rimac-automobili/eslint-config
-    @typescript-eslint/parser
-    eslint 
-```
+
+   ```shell
+   yarn add -D
+       @rimac-automobili/eslint-config
+       eslint
+   ```
 
 2. Set up the minimal required configuration as displayed below
 
-### Minimal Required Configuration
+## Minimal Required Configuration
 
 1. Create a new file in the `root` of the project called `.eslintrc.json`
 2. Place the following inside
-```JSON
-{
-    "extends": [
-        "@rimac-automobili/eslint-config/core"
-    ],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "project": "./tsconfig.json" 
-    }
-}
-```
-3. Make sure the `project` field (under `parserOptions`) is pointing to the correct path to your `tsconfig.json`
 
-# Optional Rulesets
+   ```JSON
+   {
+       "extends": [
+           "@rimac-automobili/eslint-config/core"
+       ],
+       "parser": "@typescript-eslint/parser",
+       "parserOptions": {
+           "project": "./tsconfig.json"
+       }
+   }
+   ```
 
-Add the following ruleset to your `.eslintrc.json` file under `extends` section (example below)
+3. Make sure the `project` field (under `parserOptions`) is pointing to the
+   correct path to your `tsconfig.json`
+
+## Optional Rulesets
+
+Add the following ruleset to your `.eslintrc.json` file under
+`extends` section (example below)
 
 - `"@rimac-automobili/eslint-config/react"`
 - `"@rimac-automobili/eslint-config/jest"`
 - `"@rimac-automobili/eslint-config/type-graphql"`
-- `"@rimac-automobili/eslint-config/next"` *Requires Next >= 11
-- `"@rimac-automobili/eslint-config/testing-library"` *See usage below
+- `"@rimac-automobili/eslint-config/testing-library"` \*See usage below
 
-### Using Optional Rulsets 
+### Using Optional Rulesets
 
 #### `General`
 
@@ -54,19 +57,25 @@ Add the following ruleset to your `.eslintrc.json` file under `extends` section 
 
 `Testing Library`
 
-- If you prefer more granular control of which files `eslint-plugin-testing-library` considers test files and lints 
-you can modify `"files"` field.
+- If you prefer more granular control of which files
+  `eslint-plugin-testing-library` considers for test files and lints
+  you can change `"files"` field.
 
 ```json
 {
-    "overrides": [{
-        "files": ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"],
-        "extends": ["@rimac-automobili/eslint-config/testing-library"]
-    }]
+  "overrides": [
+    {
+      "files": [
+        "**/__tests__/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[jt]s?(x)"
+      ],
+      "extends": ["@rimac-automobili/eslint-config/testing-library"]
+    }
+  ]
 }
 ```
 
-# Turn on ESLint in your Project
+## Turn on ESLint in your Project
 
 ## Intellij
 
@@ -75,17 +84,33 @@ you can modify `"files"` field.
 3. Check `run eslint --fix on save`
 4. Apply settings
 
-# Overriding or Adding Custom Rules
+## Overriding or Adding Custom Rules
 
-Rules can be overridden by adding them to the `rules` section in `.eslintrc.json` like the following example
+Rules can be overridden by adding them to the
+`rules` section in `.eslintrc.json` like the following example
 
 ```json
 {
-    "extends": [
-        "@rimac-automobili/eslint-config/core"
-    ],
-    "rules": {
-        "space-infix-ops": "off"
-    }
+  "extends": ["@rimac-automobili/eslint-config/core"],
+  "rules": {
+    "space-infix-ops": "off"
+  }
 }
+```
+
+## Testing Locally
+
+In `package.json`, specify the path to the folder where you cloned `eslint-config`
+on your computer and place it instead of the version. 
+
+Then you can use it like any other lib.
+
+```json
+// Current
+"@rimac-automobili/eslint-config": "^19.0.0",
+```
+
+```json
+// Local Setup
+"@rimac-automobili/eslint-config": "../eslint-config",
 ```
