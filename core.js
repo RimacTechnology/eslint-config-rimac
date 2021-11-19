@@ -24,7 +24,8 @@ module.exports = {
         "sort-class-members",
         "workspaces",
         "more",
-        "sonarjs"
+        "sonarjs",
+        "etc"
     ],
     "rules": {
         "@typescript-eslint/await-thenable": "error",
@@ -158,6 +159,13 @@ module.exports = {
         "computed-property-spacing": "error",
         "default-param-last": "off",
         "eqeqeq": "error",
+        "etc/no-assign-mutated-array": "error",
+        "etc/no-commented-out-code": "error",
+        "etc/no-const-enum": "error",
+        "etc/no-implicit-any-catch": "error",
+        "etc/no-internal": "error",
+        "etc/no-t": "error",
+        "etc/no-deprecated": "error",
         "for-direction": "error",
         "func-call-spacing": "off",
         "import/default": "error",
