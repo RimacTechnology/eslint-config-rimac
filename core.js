@@ -282,6 +282,7 @@ module.exports = {
         "no-unreachable": "error",
         "no-unsafe-finally": "error",
         "no-unsafe-negation": "error",
+        "no-unused-private-class-members": "error",
         "no-unused-expressions": "off",
         "no-use-before-define": "off",
         "no-useless-catch": "error",
