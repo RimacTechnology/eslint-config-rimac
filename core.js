@@ -339,6 +339,12 @@ module.exports = {
         "typescript-sort-keys/string-enum": "error",
         "use-isnan": "error",
         "unused-imports/no-unused-imports-ts": "error",
+        "unicorn/template-indent": [
+            "error",
+            {
+                "indent": 4
+            }
+        ],
         "unicorn/no-empty-file": "error",
         "unicorn/prefer-export-from": "error",
         "unicorn/no-abusive-eslint-disable": "error",
