@@ -364,7 +364,6 @@ __metadata:
     eslint-plugin-import: ^2.25.3
     eslint-plugin-jest: ^25.2.4
     eslint-plugin-jest-formatting: ^3.0.0
-    eslint-plugin-modules-newline: ^0.0.6
     eslint-plugin-more: ^1.0.5
     eslint-plugin-promise: ^5.1.1
     eslint-plugin-react: ^7.27.0
@@ -1197,15 +1196,6 @@ __metadata:
     jest:
       optional: true
   checksum: 4001f9e972a3d6dd022c6bb7d9a38b2780d88a3c5b94f5a24a734d8ecab2f074545cd78fa075c15236627dc6dc89efcdd7c293e1fa6bf31d5c37f94006f7b55c
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-modules-newline@npm:^0.0.6":
-  version: 0.0.6
-  resolution: "eslint-plugin-modules-newline@npm:0.0.6"
-  dependencies:
-    requireindex: ~1.1.0
-  checksum: a326ea5c9606724b7bfb014e7ffb82f7d4ccc690f2cf1616380de03f3e3dc23634a032081c4b58b9d6b2a7a32169240485d027f9ca2e48d1ab9ea0f87c578fa1
   languageName: node
   linkType: hard
 
@@ -2571,13 +2561,6 @@ __metadata:
   version: 2.1.1
   resolution: "require-directory@npm:2.1.1"
   checksum: f495d02d89c385af2df4b26f0216ece091e99710d358d0ede424126c476d0c639e8bd77dcd237c00a6a5658f3d862e7513164f8c280263052667d06df830eb23
-  languageName: node
-  linkType: hard
-
-"requireindex@npm:~1.1.0":
-  version: 1.1.0
-  resolution: "requireindex@npm:1.1.0"
-  checksum: 571a7c97bc3c881321c757c8a1bee09da41eeefab8294bd7858bc4f108eab73e4ad4ce80f8206e7c20ffa1482eda842f3b3021f28ab543ddfc1756272659c71e
   languageName: node
   linkType: hard
 

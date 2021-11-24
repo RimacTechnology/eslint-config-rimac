@@ -16,7 +16,6 @@ module.exports = {
         "import",
         "promise",
         "unused-imports",
-        "modules-newline",
         "sort-keys-fix",
         "sort-destructure-keys",
         "typescript-sort-keys",
@@ -219,7 +218,6 @@ module.exports = {
             }
         ],
         "multiline-ternary": "off",
-        "modules-newline/import-declaration-newline": "error",
         "newline-before-return": "error",
         "newline-per-chained-call": [
             "error",
