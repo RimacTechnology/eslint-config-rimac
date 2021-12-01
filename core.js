@@ -311,6 +311,7 @@ module.exports = {
         "radix": "error",
         "require-atomic-updates": "error",
         "require-await": "off",
+        "rimac/import-declaration-newline": "error",
         "no-control-regex": "error",
         "no-invalid-regexp": "error",
         "no-regex-spaces": "error",
@@ -476,7 +477,6 @@ module.exports = {
         "sonarjs/prefer-object-literal": "error",
         "sonarjs/prefer-single-boolean-return": "error",
         "sonarjs/prefer-while": "error",
-        "sonarjs/cognitive-complexity": ["warn", 15],
-        "rimac/import-declaration-newline": "error"
+        "sonarjs/cognitive-complexity": ["warn", 15]
     }
 }

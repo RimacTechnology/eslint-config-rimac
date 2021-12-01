@@ -368,7 +368,7 @@ __metadata:
     eslint-plugin-promise: ^5.1.1
     eslint-plugin-react: ^7.27.0
     eslint-plugin-react-hooks: ^4.3.0
-    eslint-plugin-rimac: ^0.0.1
+    eslint-plugin-rimac: ^0.0.3
     eslint-plugin-sonarjs: ^0.10.0
     eslint-plugin-sort-class-members: ^1.14.0
     eslint-plugin-sort-destructure-keys: ^1.4.0
@@ -563,6 +563,13 @@ __metadata:
   version: 5.4.0
   resolution: "@typescript-eslint/types@npm:5.4.0"
   checksum: 582e38585392ca787d6be91ac6962a729795612ae29dd9f57d09144d19aa22469f7838b97abaaed4ad175a5f9a3b050191150ede726543924986a30f79a79800
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/types@npm:^5.4.0":
+  version: 5.5.0
+  resolution: "@typescript-eslint/types@npm:5.5.0"
+  checksum: 6b96ecb1ebf1d6344f841d0dc2c8cf49a068c2a516fc4916476256f5668bd32363a475ad5775f6ecafd59269bd3f8945ea2e4ec80c4292a351cfa3a14109aa98
   languageName: node
   linkType: hard
 
@@ -1251,10 +1258,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-rimac@npm:^0.0.1":
-  version: 0.0.1
-  resolution: "eslint-plugin-rimac@npm:0.0.1"
-  checksum: 89d412aee69680fcfbe200e4546d256f6062337e5101b149601f14ea5bf6d18c159ec6480b893954ae47269e9c4b832347c547724cfed0948719c8df5c2dee4c
+"eslint-plugin-rimac@npm:^0.0.3":
+  version: 0.0.3
+  resolution: "eslint-plugin-rimac@npm:0.0.3"
+  dependencies:
+    "@typescript-eslint/types": ^5.4.0
+  checksum: db2bfee8d5ed375b19dd1fb55cb268fc98e70f40b8803f51e340163abe557e3d974a6d792cb87f0afc97207bc4489e3b589430d7a727ff395291f638cbd29ca0
   languageName: node
   linkType: hard
 
