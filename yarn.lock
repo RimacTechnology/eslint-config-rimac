@@ -368,6 +368,7 @@ __metadata:
     eslint-plugin-promise: ^5.1.1
     eslint-plugin-react: ^7.27.0
     eslint-plugin-react-hooks: ^4.3.0
+    eslint-plugin-rimac: ^0.0.1
     eslint-plugin-sonarjs: ^0.10.0
     eslint-plugin-sort-class-members: ^1.14.0
     eslint-plugin-sort-destructure-keys: ^1.4.0
@@ -1247,6 +1248,13 @@ __metadata:
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
   checksum: bef8b313a0fd72c1317c5394ab1bd23963dcb31fb9a822cde88ab6096c7829dcd295b1e3f155290682b568a7b53bac1d45a3185cd612e9ffed4a67881b3eee4e
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-rimac@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "eslint-plugin-rimac@npm:0.0.1"
+  checksum: 89d412aee69680fcfbe200e4546d256f6062337e5101b149601f14ea5bf6d18c159ec6480b893954ae47269e9c4b832347c547724cfed0948719c8df5c2dee4c
   languageName: node
   linkType: hard
 

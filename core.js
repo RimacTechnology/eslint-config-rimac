@@ -24,7 +24,8 @@ module.exports = {
         "workspaces",
         "more",
         "sonarjs",
-        "etc"
+        "etc",
+        "rimac"
     ],
     "rules": {
         "@typescript-eslint/await-thenable": "error",
@@ -475,6 +476,7 @@ module.exports = {
         "sonarjs/prefer-object-literal": "error",
         "sonarjs/prefer-single-boolean-return": "error",
         "sonarjs/prefer-while": "error",
-        "sonarjs/cognitive-complexity": ["warn", 15]
+        "sonarjs/cognitive-complexity": ["warn", 15],
+        "rimac/import-declaration-newline": "error"
     }
 }
