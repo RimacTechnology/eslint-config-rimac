@@ -77,7 +77,7 @@ Add the following ruleset to your `.eslintrc.json` file under
 
 ## Turn on ESLint in your Project
 
-## Intellij
+### Intellij
 
 1. Go to `File>Settings>Languages & Frameworks>Javascript>Code Quality Tools>ESLint`
 2. Select `Automatic ESLint Configuration`
@@ -97,6 +97,17 @@ Rules can be overridden by adding them to the
   }
 }
 ```
+
+## Troubleshooting
+
+Little fellow sometimes has problems. Here is how to help if it doesn't work: 
+
+1. Delete `node_modules`
+2. Go to `File>Invalidate Caches>Invalidate and Restart`
+3. Reinstall dependencies
+
+- Check if it works from the terminal. If it does, you IDE might be the problem here. 
+
 
 ## Testing Locally
 
