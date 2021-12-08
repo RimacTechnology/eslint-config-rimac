@@ -429,29 +429,27 @@ module.exports = {
             "always"
         ],
         "@typescript-eslint/prefer-regexp-exec": "error",
-        // NOTE: Currently broken
-        // https://github.com/bryanrsmith/eslint-plugin-sort-class-members/issues/71
-        // "sort-class-members/sort-class-members": [
-        //     "error",
-        //     {
-        //         "order": [
-        //             "[static-properties]",
-        //             "[static-methods]",
-        //             "[properties]",
-        //             "constructor",
-        //             "[getters]",
-        //             "[setters]",
-        //             "[conventional-private-properties]",
-        //             "[conventional-private-methods]",
-        //
-        //             "[arrow-function-properties]",
-        //             "[methods]",
-        //             "[async-methods]",
-        //
-        //             "[everything-else]"
-        //         ]
-        //     }
-        // ],
+        "sort-class-members/sort-class-members": [
+            "error",
+            {
+                "order": [
+                    "[static-properties]",
+                    "[static-methods]",
+                    "[properties]",
+                    "constructor",
+                    "[getters]",
+                    "[setters]",
+                    "[conventional-private-properties]",
+                    "[conventional-private-methods]",
+
+                    "[arrow-function-properties]",
+                    "[methods]",
+                    "[async-methods]",
+
+                    "[everything-else]"
+                ]
+            }
+        ],
         "workspaces/no-absolute-imports": "error",
         "workspaces/no-relative-imports": "error",
         "workspaces/require-dependency": "error",
