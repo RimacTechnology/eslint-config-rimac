@@ -436,6 +436,7 @@ module.exports = {
                     "[static-properties]",
                     "[static-methods]",
                     "[properties]",
+                    "[private-properties]",
                     "constructor",
                     "[getters]",
                     "[setters]",
@@ -447,7 +448,10 @@ module.exports = {
                     "[async-methods]",
 
                     "[everything-else]"
-                ]
+                ],
+                "groups": {
+                    "private-properties": [{ "name": "/_.+/", "type": "property" }]
+                },
             }
         ],
         "workspaces/no-absolute-imports": "error",
