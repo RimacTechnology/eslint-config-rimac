@@ -1,47 +1,80 @@
 {
-  "name": "@rimac-automobili/eslint-config",
-  "version": "20.2.1",
-  "description": "A shareable ESLint configuration",
-  "author": "Rimac Automobili d.o.o.",
-  "license": "UNLICENSED",
-  "main": "index.js",
-  "scripts": {},
-  "files": [
-    "core.js",
-    "index.js",
-    "react.js",
-    "jest.js",
-    "type-graphql.js",
-    "next.js",
-    "testing-library.js"
-  ],
-  "engines": {
-    "node": ">=14.17"
-  },
-  "peerDependencies": {
-    "eslint": "^8"
-  },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.6.0",
-    "@typescript-eslint/parser": "^5.6.0",
-    "eslint-plugin-etc": "^2.0.1",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jest": "^25.3.0",
-    "eslint-plugin-jest-formatting": "^3.1.0",
-    "eslint-plugin-more": "^1.0.5",
-    "eslint-plugin-promise": "^5.1.1",
-    "eslint-plugin-react": "^7.27.1",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "eslint-plugin-rimac": "^0.0.3",
-    "eslint-plugin-sonarjs": "^0.11.0",
-    "eslint-plugin-sort-class-members": "^1.14.1",
-    "eslint-plugin-sort-destructure-keys": "^1.4.0",
-    "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "eslint-plugin-testing-library": "^5.0.1",
-    "eslint-plugin-type-graphql": "^0.3.2",
-    "eslint-plugin-typescript-sort-keys": "^2.1.0",
-    "eslint-plugin-unicorn": "^39.0.0",
-    "eslint-plugin-unused-imports": "^2.0.0",
-    "eslint-plugin-workspaces": "^0.7.0"
-  }
+    "name": "@rimac-automobili/eslint-config",
+    "version": "20.2.1",
+    "description": "A shareable ESLint configuration",
+    "author": "Rimac Automobili d.o.o.",
+    "license": "UNLICENSED",
+    "repository": "git@bitbucket.org:rimacautomobili/eslint-config.git",
+    "main": "index.js",
+    "scripts": {
+        "cm": "cz",
+        "release": "semantic-release",
+        "postinstall": "husky install",
+        "prepublishOnly": "pinst --disable",
+        "postpublish": "pinst --enable"
+    },
+    "files": [
+        "core.js",
+        "index.js",
+        "react.js",
+        "jest.js",
+        "type-graphql.js",
+        "next.js",
+        "testing-library.js"
+    ],
+    "engines": {
+        "node": ">=16.13",
+        "yarn": ">=3"
+    },
+    "peerDependencies": {
+        "eslint": "^8"
+    },
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.6.0",
+        "@typescript-eslint/parser": "^5.6.0",
+        "eslint-plugin-etc": "^2.0.1",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jest": "^25.3.0",
+        "eslint-plugin-jest-formatting": "^3.1.0",
+        "eslint-plugin-more": "^1.0.5",
+        "eslint-plugin-promise": "^5.1.1",
+        "eslint-plugin-react": "^7.27.1",
+        "eslint-plugin-react-hooks": "^4.3.0",
+        "eslint-plugin-rimac": "^0.0.3",
+        "eslint-plugin-sonarjs": "^0.11.0",
+        "eslint-plugin-sort-class-members": "^1.14.1",
+        "eslint-plugin-sort-destructure-keys": "^1.4.0",
+        "eslint-plugin-sort-keys-fix": "^1.1.2",
+        "eslint-plugin-testing-library": "^5.0.1",
+        "eslint-plugin-type-graphql": "^0.3.2",
+        "eslint-plugin-typescript-sort-keys": "^2.1.0",
+        "eslint-plugin-unicorn": "^39.0.0",
+        "eslint-plugin-unused-imports": "^2.0.0",
+        "eslint-plugin-workspaces": "^0.7.0"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^16.0.2",
+        "@commitlint/config-conventional": "^16.0.0",
+        "@semantic-release/changelog": "^6.0.1",
+        "@semantic-release/commit-analyzer": "^9.0.2",
+        "@semantic-release/git": "^10.0.1",
+        "@semantic-release/npm": "^8.0.3",
+        "@semantic-release/release-notes-generator": "^10.0.3",
+        "commitizen": "^4.2.4",
+        "conventional-changelog-conventionalcommits": "^4.6.3",
+        "husky": "^7.0.4",
+        "pinst": "^2.1.6",
+        "semantic-release": "^18.0.1"
+    },
+    "packageManager": "yarn@3.1.1",
+    "config": {
+        "commitizen": {
+            "path": "cz-conventional-changelog"
+        }
+    },
+    "commitlint": {
+        "extends": [
+            "@commitlint/config-conventional"
+        ]
+    }
 }
