@@ -1,11 +1,21 @@
-image: node:14.15.1
+image: node:16.13.2
+
+definitions:
+  steps:
+    - step: &release
+        name: Release
+        script:
+          - yarn release
 
 pipelines:
-  tags:
-    v*:
+  branches:
+    alpha:
       - step:
-          name: Publish library
-          script:
-            - pipe: atlassian/npm-publish:0.3.2
-              variables:
-                NPM_TOKEN: $NPM_TOKEN
+          <<: *release
+          name: Release (alpha)
+    beta:
+      - step:
+          <<: *release
+          name: Release (beta)
+    master:
+      - step: *release
