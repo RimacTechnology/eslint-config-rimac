@@ -346,6 +346,7 @@ module.exports = {
                 "indent": 4
             }
         ],
+        "unicorn/no-useless-promise-resolve-reject": "error",
         "unicorn/no-empty-file": "error",
         "unicorn/prefer-export-from": "error",
         "unicorn/no-abusive-eslint-disable": "error",
