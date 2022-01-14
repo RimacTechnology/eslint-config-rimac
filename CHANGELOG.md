@@ -1,3 +1,15 @@
+## [20.4.0](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v20.4.0%0Dv20.3.0#diff) (2022-01-14)
+
+
+### Features
+
+* **core:** add unicorn/no-useless-promise-resolve-reject rule ([fac85eb](https://bitbucket.org/rimacautomobili/eslint-config/commits/fac85ebee6933fdb778b50db2c8120778454ee7a))
+
+
+### Other
+
+* update dependencies ([98f3f30](https://bitbucket.org/rimacautomobili/eslint-config/commits/98f3f304161640dbcab1c0015b943e17e3e93a5f))
+
 ## [20.3.0](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v20.3.0%0Dv20.2.1#diff) (2022-01-14)
 
 
