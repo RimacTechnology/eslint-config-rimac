@@ -1,4 +1,10 @@
-# Usage
+# Eslint Config
+
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Conventional Changelog](https://img.shields.io/badge/changelog-conventional-brightgreen.svg)](http://conventional-changelog.github.io)
+[![semantic-release: angular](https://img.shields.io/badge/semantic--release-conventionalcommits-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
+
+## Usage
 
 1. Install the library as a dev dependency alongside required dependencies using
 
@@ -118,10 +124,14 @@ Then you can use it like any other lib.
 
 ```json
 // Current
-"@rimac-automobili/eslint-config": "^19.0.0",
+{
+    "@rimac-automobili/eslint-config": "^19.0.0",
+}
 ```
 
 ```json
 // Local Setup
-"@rimac-automobili/eslint-config": "../eslint-config",
+{
+    "@rimac-automobili/eslint-config": "../eslint-config",
+}
 ```
