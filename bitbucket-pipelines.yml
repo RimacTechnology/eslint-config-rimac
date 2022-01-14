@@ -1,7 +1,21 @@
 image: node:16.13.2
 
 definitions:
+  caches:
+    yarn: .yarn/cache
   steps:
+    - step: &install
+        name: Install
+        caches:
+          - node
+          - yarn
+        script:
+          - yarn install
+        after-script:
+          - yarn npm audit
+        artifacts:
+          - node_modules/**
+          - .yarn/cache/**
     - step: &release
         name: Release
         script:
@@ -10,12 +24,15 @@ definitions:
 pipelines:
   branches:
     alpha:
+      - step: *install
       - step:
           <<: *release
           name: Release (alpha)
     beta:
+      - step: *install
       - step:
           <<: *release
           name: Release (beta)
     master:
+      - step: *install
       - step: *release
