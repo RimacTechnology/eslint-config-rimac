@@ -26,7 +26,7 @@ module.exports = {
                     },
                     {
                         type: 'chore',
-                        release: 'minor',
+                        release: 'patch',
                     },
                     {
                         type: 'refactor',
