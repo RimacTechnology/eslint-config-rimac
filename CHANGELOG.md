@@ -1,3 +1,10 @@
+### [20.5.2](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v20.5.2%0Dv20.5.1#diff) (2022-02-03)
+
+
+### Bug Fixes
+
+* **core:** rule checking max line length will no longer fail on imports exceeding 120 chars ([962bbb5](https://bitbucket.org/rimacautomobili/eslint-config/commits/962bbb5da200284425d23b4a07730e327d89e00c))
+
 ### [20.5.1](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v20.5.1%0Dv20.5.0#diff) (2022-02-03)
 
 
