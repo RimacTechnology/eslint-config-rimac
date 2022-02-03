@@ -700,6 +700,7 @@ __metadata:
     eslint-plugin-workspaces: ^0.7.0
     husky: ^7.0.4
     pinst: ^2.1.6
+    prettier: ^2.5.1
     semantic-release: 18.0.1
   peerDependencies:
     eslint: ^8
@@ -5476,6 +5477,15 @@ __metadata:
   version: 8.0.0
   resolution: "pluralize@npm:8.0.0"
   checksum: 08931d4a6a4a5561a7f94f67a31c17e6632cb21e459ab3ff4f6f629d9a822984cf8afef2311d2005fbea5d7ef26016ebb090db008e2d8bce39d0a9a9d218736e
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.5.1":
+  version: 2.5.1
+  resolution: "prettier@npm:2.5.1"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 21b9408476ea1c544b0e45d51ceb94a84789ff92095abb710942d780c862d0daebdb29972d47f6b4d0f7ebbfb0ffbf56cc2cfa3e3e9d1cca54864af185b15b66
   languageName: node
   linkType: hard
 
