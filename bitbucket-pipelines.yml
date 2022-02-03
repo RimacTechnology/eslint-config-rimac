@@ -20,19 +20,26 @@ definitions:
               name: Release
               script:
                   - yarn release
+        - step: &lint
+              name: Lint
+              script:
+                  - yarn lint
 
 pipelines:
     branches:
         alpha:
             - step: *install
+            - step: *lint
             - step:
                   <<: *release
                   name: Release (alpha)
         beta:
             - step: *install
+            - step: *lint
             - step:
                   <<: *release
                   name: Release (beta)
         master:
             - step: *install
+            - step: *lint
             - step: *release
