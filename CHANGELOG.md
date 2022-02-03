@@ -1,3 +1,22 @@
+## [20.5.0](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v20.5.0%0Dv20.4.0#diff) (2022-02-03)
+
+
+### Features
+
+* **jest:** add `jest/prefer-comparison-matcher` rule ([01aad01](https://bitbucket.org/rimacautomobili/eslint-config/commits/01aad01079372fd548d7bf0334eac41123f7c08a))
+* **jest:** add `jest/prefer-equality-matcher` rule ([eb36471](https://bitbucket.org/rimacautomobili/eslint-config/commits/eb3647170d41705db2447e7d520e7cb53ce2c70e))
+
+
+### Build System
+
+* **.releaserc.js:** mark chore commit as patch release type ([a38b39b](https://bitbucket.org/rimacautomobili/eslint-config/commits/a38b39b015faf353b03cc440e4b28a59f83a582a))
+
+
+### Other
+
+* **releaserc:** remove commit analyzer overrides ([659c579](https://bitbucket.org/rimacautomobili/eslint-config/commits/659c5791a168aa9ae1482bf2670daf205341f070))
+* revert release packages version bump ([9bce60b](https://bitbucket.org/rimacautomobili/eslint-config/commits/9bce60b2910a0b3a0107aa41166fc1b6c66428ec))
+
 ## [20.4.0](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v20.4.0%0Dv20.3.0#diff) (2022-01-14)
 
 
