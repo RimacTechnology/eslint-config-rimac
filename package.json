@@ -1,6 +1,6 @@
 {
     "name": "@rimac-automobili/eslint-config",
-    "version": "20.5.0",
+    "version": "20.5.1",
     "description": "A shareable ESLint configuration",
     "author": "Rimac Automobili d.o.o.",
     "license": "UNLICENSED",

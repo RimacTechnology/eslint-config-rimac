@@ -1,3 +1,10 @@
+### [20.5.1](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v20.5.1%0Dv20.5.0#diff) (2022-02-03)
+
+
+### Bug Fixes
+
+* **type-graphql:** bump type-graphql package to support eslint 8 ([5a8d21e](https://bitbucket.org/rimacautomobili/eslint-config/commits/5a8d21ecb0dd33baeb18f76ea40b3503ba42fc83))
+
 ## [20.5.0](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v20.5.0%0Dv20.4.0#diff) (2022-02-03)
 
 
