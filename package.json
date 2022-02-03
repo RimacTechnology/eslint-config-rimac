@@ -30,9 +30,9 @@
         "eslint": "^8"
     },
     "dependencies": {
-        "@typescript-eslint/eslint-plugin": "^5.9.1",
-        "@typescript-eslint/parser": "^5.9.1",
-        "eslint-plugin-etc": "^2.0.1",
+        "@typescript-eslint/eslint-plugin": "^5.10.2",
+        "@typescript-eslint/parser": "^5.10.2",
+        "eslint-plugin-etc": "^2.0.2",
         "eslint-plugin-import": "^2.25.4",
         "eslint-plugin-jest": "^25.3.4",
         "eslint-plugin-jest-formatting": "^3.1.0",
@@ -45,26 +45,26 @@
         "eslint-plugin-sort-class-members": "^1.14.1",
         "eslint-plugin-sort-destructure-keys": "^1.4.0",
         "eslint-plugin-sort-keys-fix": "^1.1.2",
-        "eslint-plugin-testing-library": "^5.0.3",
+        "eslint-plugin-testing-library": "^5.0.5",
         "eslint-plugin-type-graphql": "^0.3.2",
         "eslint-plugin-typescript-sort-keys": "^2.1.0",
-        "eslint-plugin-unicorn": "^40.0.0",
+        "eslint-plugin-unicorn": "^40.1.0",
         "eslint-plugin-unused-imports": "^2.0.0",
         "eslint-plugin-workspaces": "^0.7.0"
     },
     "devDependencies": {
-        "@commitlint/cli": "^16.0.2",
+        "@commitlint/cli": "^16.1.0",
         "@commitlint/config-conventional": "^16.0.0",
         "@semantic-release/changelog": "^6.0.1",
         "@semantic-release/commit-analyzer": "^9.0.2",
         "@semantic-release/git": "^10.0.1",
-        "@semantic-release/npm": "^8.0.3",
+        "@semantic-release/npm": "^9.0.0",
         "@semantic-release/release-notes-generator": "^10.0.3",
         "commitizen": "^4.2.4",
         "conventional-changelog-conventionalcommits": "^4.6.3",
         "husky": "^7.0.4",
         "pinst": "^2.1.6",
-        "semantic-release": "^18.0.1"
+        "semantic-release": "^19.0.2"
     },
     "packageManager": "yarn@3.1.1",
     "config": {
