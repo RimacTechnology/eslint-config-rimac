@@ -1,38 +1,45 @@
 image: node:16.13.2
 
 definitions:
-  caches:
-    yarn: .yarn/cache
-  steps:
-    - step: &install
-        name: Install
-        caches:
-          - node
-          - yarn
-        script:
-          - yarn install
-        after-script:
-          - yarn npm audit
-        artifacts:
-          - node_modules/**
-          - .yarn/cache/**
-    - step: &release
-        name: Release
-        script:
-          - yarn release
+    caches:
+        yarn: .yarn/cache
+    steps:
+        - step: &install
+              name: Install
+              caches:
+                  - node
+                  - yarn
+              script:
+                  - yarn install
+              after-script:
+                  - yarn npm audit
+              artifacts:
+                  - node_modules/**
+                  - .yarn/cache/**
+        - step: &release
+              name: Release
+              script:
+                  - yarn release
+        - step: &lint
+              name: Lint
+              script:
+                  - yarn lint
 
 pipelines:
-  branches:
-    alpha:
-      - step: *install
-      - step:
-          <<: *release
-          name: Release (alpha)
-    beta:
-      - step: *install
-      - step:
-          <<: *release
-          name: Release (beta)
-    master:
-      - step: *install
-      - step: *release
+    branches:
+        alpha:
+            - step: *install
+            - step: *lint
+            - step:
+                  <<: *release
+                  name: Release (alpha)
+        beta:
+            - step: *install
+            - step: *lint
+            - step:
+                  <<: *release
+                  name: Release (beta)
+        master:
+            - step: *install
+            - step: *lint
+            - step: *release
