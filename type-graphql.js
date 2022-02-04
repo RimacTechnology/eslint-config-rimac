@@ -5,7 +5,7 @@ module.exports = {
         "type-graphql/invalid-decorator-type": "error",
         "type-graphql/invalid-nullable-input-type": "error",
         "type-graphql/invalid-nullable-output-type": "error",
-        "type-graphql/missing-decorator-type": "error",
+        "type-graphql/missing-decorator-type": ["error", "all"],
         "type-graphql/wrong-decorator-signature": "error"
     }
 }
