@@ -12,7 +12,7 @@
         "postinstall": "husky install",
         "prepublishOnly": "pinst --disable",
         "postpublish": "pinst --enable",
-        "lint": "yarn prettier --check ./*.{yaml,yml,json}"
+        "lint": "prettier --check ./*.{yaml,yml,json}"
     },
     "files": [
         "core.js",
