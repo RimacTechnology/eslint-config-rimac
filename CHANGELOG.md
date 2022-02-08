@@ -1,3 +1,15 @@
+## [21.0.0](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v21.0.0%0Dv20.5.3#diff) (2022-02-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* **type-graphql:** `type-graphql/missing-decorator-type` now always requires types to be set
+regardless of a simple or complex types
+
+### Features
+
+* **type-graphql:** `type-graphql/missing-decorator-type` now always requires types to be set ([a6d7b8c](https://bitbucket.org/rimacautomobili/eslint-config/commits/a6d7b8cf4c922ef343778093b89885b9600164d3))
+
 ### [20.5.3](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v20.5.3%0Dv20.5.2#diff) (2022-02-08)
 
 
