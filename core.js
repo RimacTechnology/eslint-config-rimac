@@ -113,7 +113,12 @@ module.exports = {
         "@typescript-eslint/prefer-reduce-type-parameter": "warn",
         "@typescript-eslint/prefer-string-starts-ends-with": "warn",
         "@typescript-eslint/prefer-ts-expect-error": "error",
-        "@typescript-eslint/promise-function-async": "error",
+        "@typescript-eslint/promise-function-async": [
+            "error",
+            {
+                "allowedPromiseNames": ["Thenable"]
+            }
+        ],
         "@typescript-eslint/quotes": [
             "error",
             "single"
