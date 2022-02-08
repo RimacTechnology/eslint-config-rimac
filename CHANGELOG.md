@@ -1,3 +1,25 @@
+### [20.5.3](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v20.5.3%0Dv20.5.2#diff) (2022-02-08)
+
+
+### Bug Fixes
+
+* **core:** allow thenable function in `@typescript-eslint/promise-function-async` rule ([fdaebb2](https://bitbucket.org/rimacautomobili/eslint-config/commits/fdaebb2e444f47efd645a97b2cdf3d64e21afb9c))
+
+
+### Other
+
+* format config files with prettier ([015e0d4](https://bitbucket.org/rimacautomobili/eslint-config/commits/015e0d4ed3c4c20dc18fe2042b2c2dbcb0ca5624))
+
+
+### Continuous Integration
+
+* run prettier on config files in CI ([07dff2a](https://bitbucket.org/rimacautomobili/eslint-config/commits/07dff2a65d3a4abb903a282f6ed78ddc986316df))
+
+
+### Styles
+
+* remove unnecesarry yarn reference in package json command ([f476c5b](https://bitbucket.org/rimacautomobili/eslint-config/commits/f476c5b4b486f72050ee863d5fe803b2cf0a7a4c))
+
 ### [20.5.2](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v20.5.2%0Dv20.5.1#diff) (2022-02-03)
 
 
