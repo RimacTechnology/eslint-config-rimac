@@ -221,7 +221,8 @@ module.exports = {
             "error",
             {
                 "code": 120,
-                "ignorePattern": "^import .*"
+                "ignorePattern": "^import .*",
+                "ignoreComments": true
             }
         ],
         "multiline-ternary": "off",
