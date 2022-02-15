@@ -1,3 +1,10 @@
+### [21.0.1](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v21.0.1%0Dv21.0.0#diff) (2022-02-15)
+
+
+### Bug Fixes
+
+* **core:** allow comments to exceed max-len ([92d7906](https://bitbucket.org/rimacautomobili/eslint-config/commits/92d7906f0104a9d1a566bf7060f691f545d8620b))
+
 ## [21.0.0](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v21.0.0%0Dv20.5.3#diff) (2022-02-08)
 
 
