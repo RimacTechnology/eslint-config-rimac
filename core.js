@@ -25,7 +25,8 @@ module.exports = {
         "more",
         "sonarjs",
         "etc",
-        "rimac"
+        "rimac",
+        "eslint-comments"
     ],
     "rules": {
         "@typescript-eslint/await-thenable": "error",
@@ -487,6 +488,8 @@ module.exports = {
         "sonarjs/prefer-object-literal": "error",
         "sonarjs/prefer-single-boolean-return": "error",
         "sonarjs/prefer-while": "error",
-        "sonarjs/cognitive-complexity": ["warn", 15]
+        "sonarjs/cognitive-complexity": ["warn", 15],
+        "eslint-comments/no-unused-disable": "error",
+        "eslint-comments/no-duplicate-disable": "error",
     }
 }
