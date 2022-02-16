@@ -1,3 +1,15 @@
+## [22.0.0](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v22.0.0%0Dv21.0.1#diff) (2022-02-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* **core:** Eslint will now report an error if you have eslint-disable comments that don't do
+anything or if you have disabled the same rule twice
+
+### Features
+
+* **core:** lint eslint-disable comments ([8d94197](https://bitbucket.org/rimacautomobili/eslint-config/commits/8d9419790b236720f849740425be8714205459e4))
+
 ### [21.0.1](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v21.0.1%0Dv21.0.0#diff) (2022-02-15)
 
 
