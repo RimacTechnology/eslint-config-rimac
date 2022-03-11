@@ -1,3 +1,10 @@
+## [22.1.0](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v22.1.0%0Dv22.0.0#diff) (2022-03-11)
+
+
+### Features
+
+* **mobx:** add new ruleset for mobx ([c89a30e](https://bitbucket.org/rimacautomobili/eslint-config/commits/c89a30e768e556529625333714492fb49b91df04)), closes [#QIA-876](https://rimac-automobili.atlassian.net/browse/QIA-876)
+
 ## [22.0.0](https://bitbucket.org/rimacautomobili/eslint-config/branches/compare/v22.0.0%0Dv21.0.1#diff) (2022-02-16)
 
 
