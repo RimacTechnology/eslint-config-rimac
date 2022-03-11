@@ -42,6 +42,7 @@ Add the following ruleset to your `.eslintrc.json` file under
 -   `"@rimac-automobili/eslint-config/react"`
 -   `"@rimac-automobili/eslint-config/jest"`
 -   `"@rimac-automobili/eslint-config/type-graphql"`
+-   `"@rimac-automobili/eslint-config/mobx"`
 -   `"@rimac-automobili/eslint-config/testing-library"` \*See usage below
 
 ### Using Optional Rulesets
