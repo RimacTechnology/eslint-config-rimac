@@ -5,4 +5,5 @@ module.exports = {
     typeGraphql: require('./type-graphql'),
     next: require('./next'),
     testingLibrary: require('./testing-library'),
+    mobx: require('./mobx'),
 }

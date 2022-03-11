@@ -684,6 +684,7 @@ __metadata:
     eslint-plugin-import: ^2.25.4
     eslint-plugin-jest: ^26.0.0
     eslint-plugin-jest-formatting: ^3.1.0
+    eslint-plugin-mobx: ^0.0.8
     eslint-plugin-more: ^1.0.5
     eslint-plugin-promise: ^6.0.0
     eslint-plugin-react: ^7.28.0
@@ -2482,6 +2483,15 @@ __metadata:
     jest:
       optional: true
   checksum: 32063a47abb72260a290cc72c4ee395cb36f94fbf6e66ba2d3b8a46bf468fdcd27d5a166c6576a1c04155d5c4944043fa48767f8f86cb78f269f93f339929f9e
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-mobx@npm:^0.0.8":
+  version: 0.0.8
+  resolution: "eslint-plugin-mobx@npm:0.0.8"
+  peerDependencies:
+    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
+  checksum: c4d9977ccbde2041ad4fec405b36763cd0bc738c7cc4bde6054b560d4b0d3929371927fedf5a37f9b039c712a382f62455931ca255a142fd9089ce8b53d0d66b
   languageName: node
   linkType: hard
 
