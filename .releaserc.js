@@ -12,7 +12,22 @@ module.exports = {
         },
     ],
     plugins: [
-        '@semantic-release/commit-analyzer',
+        [
+            '@semantic-release/commit-analyzer',
+            {
+                preset: 'angular',
+                releaseRules: [
+                    {
+                        type: 'refactor',
+                        release: 'patch',
+                    },
+                    {
+                        type: 'chore',
+                        release: 'patch',
+                    },
+                ],
+            },
+        ],
         [
             '@semantic-release/release-notes-generator',
             {
@@ -32,36 +47,16 @@ module.exports = {
                             section: 'Bug Fixes',
                         },
                         {
-                            type: 'chore',
-                            section: 'Other',
-                        },
-                        {
-                            type: 'docs',
-                            section: 'Documentation',
-                        },
-                        {
-                            type: 'style',
-                            section: 'Styles',
-                        },
-                        {
                             type: 'refactor',
                             section: 'Code Refactoring',
                         },
                         {
+                            type: 'chore',
+                            section: 'Other',
+                        },
+                        {
                             type: 'perf',
                             section: 'Performance Improvements',
-                        },
-                        {
-                            type: 'test',
-                            section: 'Tests',
-                        },
-                        {
-                            type: 'ci',
-                            section: 'Continuous Integration',
-                        },
-                        {
-                            type: 'build',
-                            section: 'Build System',
                         },
                         {
                             type: 'revert',
@@ -73,11 +68,6 @@ module.exports = {
         ],
         '@semantic-release/changelog',
         '@semantic-release/npm',
-        [
-            '@semantic-release/git',
-            {
-                message: 'release: ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
-            },
-        ],
+        '@semantic-release/git',
     ],
 }

@@ -71,7 +71,7 @@
         "prettier": "^2.5.1",
         "semantic-release": "^19.0.2"
     },
-    "packageManager": "yarn@3.1.1",
+    "packageManager": "yarn@3.2.0",
     "config": {
         "commitizen": {
             "path": "cz-conventional-changelog"
