@@ -2,8 +2,8 @@
     "name": "@rimac-automobili/eslint-config",
     "version": "22.1.0",
     "description": "A shareable ESLint configuration",
-    "author": "Rimac Automobili d.o.o.",
-    "license": "UNLICENSED",
+    "author": "Rimac Technology d.o.o.",
+    "license": "MIT",
     "repository": "git@bitbucket.org:rimacautomobili/eslint-config.git",
     "main": "index.js",
     "scripts": {
@@ -25,7 +25,7 @@
         "testing-library.js"
     ],
     "engines": {
-        "node": ">=16.13",
+        "node": ">=16.14",
         "yarn": ">=3"
     },
     "peerDependencies": {
