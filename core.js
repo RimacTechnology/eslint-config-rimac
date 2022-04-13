@@ -85,7 +85,6 @@ module.exports = {
         "@typescript-eslint/no-extra-non-null-assertion": "error",
         "@typescript-eslint/no-floating-promises": "error",
         "@typescript-eslint/no-inferrable-types": "error",
-        "@typescript-eslint/no-misused-promises": "error",
         "@typescript-eslint/no-non-null-asserted-optional-chain": "error",
         "@typescript-eslint/no-non-null-assertion": "error",
         "@typescript-eslint/no-redeclare": "error",
