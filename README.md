@@ -10,7 +10,7 @@
 
 ```bash
 yarn add -D
-    @rimac-automobili/eslint-config
+    @rimac-technology/eslint-config
     eslint
 ```
 
@@ -23,7 +23,7 @@ yarn add -D
 
 ```json
 {
-    "extends": ["@rimac-automobili/eslint-config/core"],
+    "extends": ["@rimac-technology/eslint-config/core"],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "project": "./tsconfig.json"
@@ -39,11 +39,11 @@ yarn add -D
 Add the following ruleset to your `.eslintrc.json` file under
 `extends` section (example below)
 
--   `"@rimac-automobili/eslint-config/react"`
--   `"@rimac-automobili/eslint-config/jest"`
--   `"@rimac-automobili/eslint-config/type-graphql"`
--   `"@rimac-automobili/eslint-config/mobx"`
--   `"@rimac-automobili/eslint-config/testing-library"` \*See usage below
+-   `"@rimac-technology/eslint-config/react"`
+-   `"@rimac-technology/eslint-config/jest"`
+-   `"@rimac-technology/eslint-config/type-graphql"`
+-   `"@rimac-technology/eslint-config/mobx"`
+-   `"@rimac-technology/eslint-config/testing-library"` \*See usage below
 
 ### Using Optional Rulesets
 
@@ -54,8 +54,8 @@ Add the following ruleset to your `.eslintrc.json` file under
 ```json
 {
     "extends": [
-        "@rimac-automobili/eslint-config/core",
-        "@rimac-automobili/eslint-config/<optional-ruleset-name>"
+        "@rimac-technology/eslint-config/core",
+        "@rimac-technology/eslint-config/<optional-ruleset-name>"
     ]
 }
 ```
@@ -74,7 +74,7 @@ Add the following ruleset to your `.eslintrc.json` file under
                 "**/__tests__/**/*.[jt]s?(x)",
                 "**/?(*.)+(spec|test).[jt]s?(x)"
             ],
-            "extends": ["@rimac-automobili/eslint-config/testing-library"]
+            "extends": ["@rimac-technology/eslint-config/testing-library"]
         }
     ]
 }
@@ -96,7 +96,7 @@ Rules can be overridden by adding them to the
 
 ```json
 {
-    "extends": ["@rimac-automobili/eslint-config/core"],
+    "extends": ["@rimac-technology/eslint-config/core"],
     "rules": {
         "space-infix-ops": "off"
     }
@@ -125,7 +125,7 @@ Then you can use it like any other lib.
 ```json
 // Current
 {
-    "@rimac-automobili/eslint-config": "^19.0.0"
+    "@rimac-technology/eslint-config": "^19.0.0"
 }
 ```
 
@@ -133,6 +133,6 @@ Then you can use it like any other lib.
 
 ```json
 {
-    "@rimac-automobili/eslint-config": "../eslint-config"
+    "@rimac-technology/eslint-config": "../eslint-config"
 }
 ```

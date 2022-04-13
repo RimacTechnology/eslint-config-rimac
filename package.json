@@ -1,10 +1,10 @@
 {
-    "name": "@rimac-automobili/eslint-config",
+    "name": "@rimac-technology/eslint-config",
     "version": "22.1.0",
     "description": "A shareable ESLint configuration",
     "author": "Rimac Technology d.o.o.",
     "license": "MIT",
-    "repository": "git@bitbucket.org:rimacautomobili/eslint-config.git",
+    "repository": "git@github.com:RimacTechnology/eslint-config-rimac.git",
     "main": "index.js",
     "scripts": {
         "cm": "cz",
@@ -13,6 +13,9 @@
         "prepublishOnly": "pinst --disable",
         "postpublish": "pinst --enable",
         "lint": "prettier --check ./*.{yaml,yml,json}"
+    },
+    "publishConfig": {
+        "access": "public"
     },
     "files": [
         "core.js",
