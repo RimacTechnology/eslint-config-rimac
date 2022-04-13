@@ -1,3 +1,10 @@
+## [22.2.1](https://github.com/RimacTechnology/eslint-config-rimac/compare/v22.2.0...v22.2.1) (2022-04-13)
+
+
+### Bug Fixes
+
+* temp remove rimac eslint plugin ([a8b72e3](https://github.com/RimacTechnology/eslint-config-rimac/commit/a8b72e3d6e62049ac9ddec1aac3fbfe308e3dc2f))
+
 ## [22.2.0](https://bitbucket.org/rimacautomobili/eslint-config-rimac/branches/compare/v22.2.0%0Dv22.1.0#diff) (2022-04-13)
 
 
