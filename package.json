@@ -34,6 +34,7 @@
         "eslint": "^8"
     },
     "dependencies": {
+        "@rimac-technology/eslint-plugin": "^1.0.1",
         "@typescript-eslint/eslint-plugin": "^5.14.0",
         "@typescript-eslint/parser": "^5.14.0",
         "eslint-plugin-eslint-comments": "^3.2.0",

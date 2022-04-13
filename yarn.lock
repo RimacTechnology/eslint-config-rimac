@@ -687,6 +687,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": ^16.2.1
     "@commitlint/config-conventional": ^16.2.1
+    "@rimac-technology/eslint-plugin": ^1.0.1
     "@semantic-release/changelog": ^6.0.1
     "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/git": ^10.0.1
@@ -725,6 +726,15 @@ __metadata:
     eslint: ^8
   languageName: unknown
   linkType: soft
+
+"@rimac-technology/eslint-plugin@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@rimac-technology/eslint-plugin@npm:1.0.1"
+  dependencies:
+    "@typescript-eslint/types": ^5.19.0
+  checksum: 07c68ec3d081caac71fc49b48bcdc901b0c5d9c6881ed9f90305034f04a9be57270b8a43fda4b360659e76827d989b29fa5af4f7aa9975028c26fb18f6cd7566
+  languageName: node
+  linkType: hard
 
 "@semantic-release/changelog@npm:^6.0.1":
   version: 6.0.1
@@ -1122,6 +1132,13 @@ __metadata:
   version: 5.2.0
   resolution: "@typescript-eslint/types@npm:5.2.0"
   checksum: dd283e682539900daf52f23d6983e2b083268502c2a6615a0411e6cfa3ae7ae09ad2f2260b4b35249de808d519588f76392b70c90c81839c8560b7af70f5b088
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/types@npm:^5.19.0":
+  version: 5.19.0
+  resolution: "@typescript-eslint/types@npm:5.19.0"
+  checksum: 383091f0063c789c07e8e8361f8a2b5c4619fc3672e9b1ac88c83ec3abd9ddeaea7c8adcc62aacfa8139ebff4c87c5871fb8f743a54208cc239c5a0c3bfbc280
   languageName: node
   linkType: hard
 

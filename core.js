@@ -25,6 +25,7 @@ module.exports = {
         "more",
         "sonarjs",
         "etc",
+        "@rimac-technology",
         "eslint-comments"
     ],
     "rules": {
@@ -317,6 +318,7 @@ module.exports = {
         "radix": "error",
         "require-atomic-updates": "error",
         "require-await": "off",
+        "@rimac-technology/import-declaration-newline": "error",
         "no-control-regex": "error",
         "no-invalid-regexp": "error",
         "no-regex-spaces": "error",
