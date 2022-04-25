@@ -9,7 +9,7 @@ on:
 
 jobs:
     lint:
-        name: Lint 
+        name: Lint
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3
@@ -26,6 +26,24 @@ jobs:
               env:
                   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
             - run: yarn lint
+    test:
+        name: Test
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+              with:
+                  fetch-depth: 0
+                  persist-credentials: false
+            - uses: actions/cache@v3
+              with:
+                  path: |
+                      node_modules
+                      .yarn/cache
+                  key: node_modules-${{ hashFiles('**/yarn.lock') }}
+            - run: yarn install
+              env:
+                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+            - run: yarn test
     release:
         name: Release
         needs: lint

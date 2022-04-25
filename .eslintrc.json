@@ -1,0 +1,14 @@
+{
+    "extends": [
+        "./core.js",
+        "./jest.js",
+        "./mobx.js",
+        "./react.js",
+        "./testing-library.js",
+        "./type-graphql.js"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    }
+}
