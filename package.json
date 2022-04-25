@@ -12,7 +12,8 @@
         "postinstall": "husky install",
         "prepublishOnly": "pinst --disable",
         "postpublish": "pinst --enable",
-        "lint": "prettier --check ./*.{yaml,yml,json}"
+        "lint": "prettier --check ./*.{yaml,yml,json}",
+        "test": "eslint ./__tests__/example.ts"
     },
     "publishConfig": {
         "access": "public"
@@ -24,7 +25,6 @@
         "mobx.js",
         "jest.js",
         "type-graphql.js",
-        "next.js",
         "testing-library.js"
     ],
     "engines": {
@@ -61,6 +61,7 @@
     "devDependencies": {
         "@commitlint/cli": "^16.2.1",
         "@commitlint/config-conventional": "^16.2.1",
+        "@rimac-technology/eslint-config": "^22.2.3",
         "@semantic-release/changelog": "^6.0.1",
         "@semantic-release/commit-analyzer": "^9.0.2",
         "@semantic-release/git": "^10.0.1",
@@ -69,10 +70,13 @@
         "@semantic-release/release-notes-generator": "^10.0.3",
         "commitizen": "^4.2.4",
         "conventional-changelog-conventionalcommits": "^4.6.3",
+        "eslint": "^8.14.0",
         "husky": "^7.0.4",
+        "jest": "^27.5.1",
         "pinst": "^3.0.0",
         "prettier": "^2.5.1",
-        "semantic-release": "^19.0.2"
+        "semantic-release": "^19.0.2",
+        "typescript": "^4.6.3"
     },
     "packageManager": "yarn@3.2.0",
     "config": {

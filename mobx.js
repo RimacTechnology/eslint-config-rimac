@@ -1,5 +1,5 @@
 module.exports = {
-    "extends": ["mobx"],
+    "plugins": ["mobx"],
     "rules": {
         "mobx/exhaustive-make-observable": "error",
         "mobx/unconditional-make-observable": "error",
