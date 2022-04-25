@@ -46,7 +46,7 @@ jobs:
             - run: yarn test
     release:
         name: Release
-        needs: lint
+        needs: [lint, test]
         if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/beta' || github.ref == 'refs/heads/alpha'
         runs-on: ubuntu-latest
         steps:

@@ -1,116 +1,116 @@
 module.exports = {
-    "env": {
-        "browser": true
+    'env': {
+        'browser': true,
     },
-    "overrides": [
+    'overrides': [
         {
-            "files": [
-                "**/*.tsx"
+            'files': [
+                '**/*.tsx',
             ],
-            "rules": {
-                "react/prop-types": "off"
-            }
-        }
+            'rules': {
+                'react/prop-types': 'off',
+            },
+        },
     ],
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        }
+    'parserOptions': {
+        'ecmaFeatures': {
+            'jsx': true,
+        },
     },
-    "plugins": [
-        "react",
-        "react-hooks"
+    'plugins': [
+        'react',
+        'react-hooks',
     ],
-    "settings": {
-        "react": {
-            "version": "detect"
-        }
-    },
-    "rules": {
-        "react-hooks/exhaustive-deps": "warn",
-        "react-hooks/rules-of-hooks": "error",
-        "react/jsx-boolean-value": [
-            "error",
-            "always"
+    'rules': {
+        'react-hooks/exhaustive-deps': 'warn',
+        'react-hooks/rules-of-hooks': 'error',
+        'react/jsx-boolean-value': [
+            'error',
+            'always',
         ],
-        "react/jsx-closing-bracket-location": "error",
-        "react/jsx-closing-tag-location": "error",
-        "react/jsx-curly-brace-presence": [
-            "error",
+        'react/jsx-closing-bracket-location': 'error',
+        'react/jsx-closing-tag-location': 'error',
+        'react/jsx-curly-brace-presence': [
+            'error',
             {
-                "children": "never",
-                "props": "never"
-            }
+                'children': 'never',
+                'props': 'never',
+            },
         ],
-        "react/jsx-curly-newline": [
-            "error",
+        'react/jsx-curly-newline': [
+            'error',
             {
-                "multiline": "consistent",
-                "singleline": "consistent"
-            }
+                'multiline': 'consistent',
+                'singleline': 'consistent',
+            },
         ],
-        "react/jsx-curly-spacing": [
-            "error",
+        'react/jsx-curly-spacing': [
+            'error',
             {
-                "children": true,
-                "when": "never"
-            }
+                'children': true,
+                'when': 'never',
+            },
         ],
-        "react/jsx-equals-spacing": "error",
-        "react/jsx-first-prop-new-line": [
-            "error",
-            "multiline"
+        'react/jsx-equals-spacing': 'error',
+        'react/jsx-first-prop-new-line': [
+            'error',
+            'multiline',
         ],
-        "react/jsx-indent": [
-            "error",
+        'react/jsx-indent': [
+            'error',
             4,
             {
-                "indentLogicalExpressions": true
-            }
+                'indentLogicalExpressions': true,
+            },
         ],
-        "react/jsx-key": "error",
-        "react/jsx-max-props-per-line": "error",
-        "react/jsx-no-comment-textnodes": "error",
-        "react/jsx-no-duplicate-props": "error",
-        "react/jsx-no-useless-fragment": ["error", { "allowExpressions": true }],
-        "react/jsx-one-expression-per-line": "error",
-        "react/jsx-pascal-case": "error",
-        "react/jsx-props-no-multi-spaces": "error",
-        "react/jsx-sort-props": "error",
-        "react/jsx-tag-spacing": [
-            "error",
+        'react/jsx-key': 'error',
+        'react/jsx-max-props-per-line': 'error',
+        'react/jsx-newline': [
+            'error',
             {
-                "afterOpening": "never",
-                "beforeClosing": "never",
-                "beforeSelfClosing": "always",
-                "closingSlash": "never"
-            }
+                'prevent': true,
+            },
         ],
-        "react/jsx-wrap-multilines": [
-            "error",
+        'react/jsx-no-comment-textnodes': 'error',
+        'react/jsx-no-duplicate-props': 'error',
+        'react/jsx-no-useless-fragment': ['error', { 'allowExpressions': true }],
+        'react/jsx-one-expression-per-line': 'error',
+        'react/jsx-pascal-case': 'error',
+        'react/jsx-props-no-multi-spaces': 'error',
+        'react/jsx-sort-props': 'error',
+        'react/jsx-tag-spacing': [
+            'error',
             {
-                "arrow": "parens-new-line",
-                "assignment": "parens-new-line",
-                "condition": "parens-new-line",
-                "declaration": "parens-new-line",
-                "logical": "parens-new-line",
-                "prop": "parens-new-line",
-                "return": "parens-new-line"
-            }
+                'afterOpening': 'never',
+                'beforeClosing': 'never',
+                'beforeSelfClosing': 'always',
+                'closingSlash': 'never',
+            },
         ],
-        "react/no-unknown-property": "error",
-        "react/self-closing-comp": [
-            "error",
+        'react/jsx-wrap-multilines': [
+            'error',
             {
-                "component": true,
-                "html": true
-            }
+                'arrow': 'parens-new-line',
+                'assignment': 'parens-new-line',
+                'condition': 'parens-new-line',
+                'declaration': 'parens-new-line',
+                'logical': 'parens-new-line',
+                'prop': 'parens-new-line',
+                'return': 'parens-new-line',
+            },
         ],
-        "react/jsx-newline": [
-            "error",
+        'react/no-unknown-property': 'error',
+        'react/self-closing-comp': [
+            'error',
             {
-                "prevent": true
-            }
-        ]
-    }
+                'component': true,
+                'html': true,
+            },
+        ],
+    },
+    'settings': {
+        'react': {
+            'version': 'detect',
+        },
+    },
 }

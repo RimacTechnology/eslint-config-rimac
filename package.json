@@ -12,7 +12,9 @@
         "postinstall": "husky install",
         "prepublishOnly": "pinst --disable",
         "postpublish": "pinst --enable",
-        "lint": "prettier --check ./*.{yaml,yml,json}",
+        "lint": "yarn lint:source && yarn lint:config",
+        "lint:config": "prettier --check ./{.,}*.{yaml,yml,json}",
+        "lint:source": "eslint *.js --quiet --cache --cache-strategy content --cache-location '.eslintcache/'",
         "test": "eslint ./__tests__/example.ts"
     },
     "publishConfig": {
