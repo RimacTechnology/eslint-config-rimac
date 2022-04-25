@@ -1,6 +1,6 @@
 {
     "name": "@rimac-technology/eslint-config",
-    "version": "22.2.3",
+    "version": "22.3.0",
     "description": "A shareable ESLint configuration",
     "author": "Rimac Technology d.o.o.",
     "license": "MIT",
