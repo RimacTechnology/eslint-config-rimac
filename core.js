@@ -230,6 +230,7 @@ module.exports = {
         ],
         'key-spacing': 'error',
         'keyword-spacing': 'off',
+        'lines-between-class-members': ['error', 'always'],
         'max-len': [
             'error',
             {
