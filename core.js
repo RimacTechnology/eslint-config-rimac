@@ -145,6 +145,7 @@ module.exports = {
             'never',
         ],
         '@typescript-eslint/sort-type-union-intersection-members': 'error',
+        '@typescript-eslint/space-before-blocks': 'error',
         '@typescript-eslint/space-before-function-paren': ['error', {
             'anonymous': 'never',
             'asyncArrow': 'always',
