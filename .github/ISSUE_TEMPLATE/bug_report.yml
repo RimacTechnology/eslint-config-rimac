@@ -1,6 +1,6 @@
 name: Bug Report
 description: Report a problem with `eslint-config-rimac`
-labels: [bug]
+labels: [Bug]
 body:
     - type: checkboxes
       id: issue-prerequisite
