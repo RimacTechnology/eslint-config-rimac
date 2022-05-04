@@ -90,6 +90,7 @@ module.exports = {
         '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
         '@typescript-eslint/no-non-null-assertion': 'error',
         '@typescript-eslint/no-redeclare': 'error',
+        '@typescript-eslint/no-redundant-type-constituents': 'error',
         '@typescript-eslint/no-shadow': 'error',
         '@typescript-eslint/no-throw-literal': 'error',
         '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
