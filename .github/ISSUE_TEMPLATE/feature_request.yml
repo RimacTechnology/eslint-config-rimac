@@ -1,6 +1,6 @@
 name: Feature request
 description: Request a feature request for `eslint-config-rimac`
-labels: [enhancement]
+labels: [Feature]
 body:
     - type: checkboxes
       id: issue-prerequisite

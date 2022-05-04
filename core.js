@@ -90,9 +90,11 @@ module.exports = {
         '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
         '@typescript-eslint/no-non-null-assertion': 'error',
         '@typescript-eslint/no-redeclare': 'error',
+        '@typescript-eslint/no-redundant-type-constituents': 'error',
         '@typescript-eslint/no-shadow': 'error',
         '@typescript-eslint/no-throw-literal': 'error',
         '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
+        '@typescript-eslint/no-unnecessary-condition': 'error',
         '@typescript-eslint/no-unnecessary-type-arguments': 'error',
         '@typescript-eslint/no-unnecessary-type-assertion': 'error',
         '@typescript-eslint/no-unnecessary-type-constraint': 'error',
@@ -105,6 +107,7 @@ module.exports = {
             },
         ],
         '@typescript-eslint/no-use-before-define': 'warn',
+        '@typescript-eslint/no-useless-empty-export': 'error',
         '@typescript-eslint/object-curly-spacing': [
             'error',
             'always',
@@ -142,6 +145,7 @@ module.exports = {
             'never',
         ],
         '@typescript-eslint/sort-type-union-intersection-members': 'error',
+        '@typescript-eslint/space-before-blocks': 'error',
         '@typescript-eslint/space-before-function-paren': ['error', {
             'anonymous': 'never',
             'asyncArrow': 'always',
@@ -226,6 +230,7 @@ module.exports = {
         ],
         'key-spacing': 'error',
         'keyword-spacing': 'off',
+        'lines-between-class-members': ['error', 'always'],
         'max-len': [
             'error',
             {
