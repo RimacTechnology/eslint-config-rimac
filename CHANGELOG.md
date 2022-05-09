@@ -1,3 +1,15 @@
+# [24.0.0](https://github.com/RimacTechnology/eslint-config-rimac/compare/v23.0.0...v24.0.0) (2022-05-09)
+
+
+### Features
+
+* **core:** spacing between blocks ([6cc33d6](https://github.com/RimacTechnology/eslint-config-rimac/commit/6cc33d693e75df9dd82321064e0badb54d2d272e)), closes [#17](https://github.com/RimacTechnology/eslint-config-rimac/issues/17)
+
+
+### BREAKING CHANGES
+
+* **core:** require spacing between blocks
+
 # [23.0.0](https://github.com/RimacTechnology/eslint-config-rimac/compare/v22.3.0...v23.0.0) (2022-05-04)
 
 
