@@ -329,6 +329,29 @@ module.exports = {
         'object-curly-spacing': 'off',
         'object-shorthand': 'error',
         'padded-blocks': ['error', 'never'],
+        'padding-line-between-statements': [
+            'error',
+            {
+                'blankLine': 'always',
+                'next': 'block',
+                'prev': '*',
+            },
+            {
+                'blankLine': 'always',
+                'next': '*',
+                'prev': 'block',
+            },
+            {
+                'blankLine': 'always',
+                'next': 'block-like',
+                'prev': '*',
+            },
+            {
+                'blankLine': 'always',
+                'next': '*',
+                'prev': 'block-like',
+            },
+        ],
         'prefer-promise-reject-errors': 'error',
         'prefer-regex-literals': ['error', { 'disallowRedundantWrapping': true }],
         'prefer-template': 'error',
