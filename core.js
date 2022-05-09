@@ -27,6 +27,7 @@ module.exports = {
         'etc',
         '@rimac-technology',
         'eslint-comments',
+        'todos',
     ],
     'rules': {
         '@rimac-technology/import-declaration-newline': 'error',
@@ -428,6 +429,13 @@ module.exports = {
         'space-in-parens': 'error',
         'space-infix-ops': 'off',
         'template-curly-spacing': 'error',
+        'todos/only-documented-todos': [
+            'warn',
+            {
+                'location': 'start',
+                'terms': ['todo', 'fixme'],
+            },
+        ],
         'typescript-sort-keys/interface': 'error',
         'typescript-sort-keys/string-enum': 'error',
         'unicorn/better-regex': 'error',
