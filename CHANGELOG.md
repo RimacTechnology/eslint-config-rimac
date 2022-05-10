@@ -1,3 +1,16 @@
+# [25.0.0](https://github.com/RimacTechnology/eslint-config-rimac/compare/v24.0.0...v25.0.0) (2022-05-10)
+
+
+### Features
+
+* **core:** require issue urls for todos and fixmes ([be713a4](https://github.com/RimacTechnology/eslint-config-rimac/commit/be713a40348052350ab03e29d50ac6b827e50283)), closes [#8](https://github.com/RimacTechnology/eslint-config-rimac/issues/8)
+
+
+### BREAKING CHANGES
+
+* **core:** all todo and fixme comments are now required to have an issue url attached at the
+end
+
 # [24.0.0](https://github.com/RimacTechnology/eslint-config-rimac/compare/v23.0.0...v24.0.0) (2022-05-09)
 
 
