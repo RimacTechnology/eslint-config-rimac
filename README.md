@@ -31,13 +31,12 @@ yarn add -D
 }
 ```
 
-3. Make sure the `project` field (under `parserOptions`) is pointing to the
-   correct path to your `tsconfig.json`
+3. Make sure the `project` field (under `parserOptions`) is pointing to the correct path to your
+   `tsconfig.json`
 
 ## Optional Rulesets
 
-Add the following ruleset to your `.eslintrc.json` file under
-`extends` section (example below)
+Add the following ruleset to your `.eslintrc.json` file under `extends` section (example below)
 
 -   `"@rimac-technology/eslint-config/react"`
 -   `"@rimac-technology/eslint-config/jest"`
@@ -62,18 +61,14 @@ Add the following ruleset to your `.eslintrc.json` file under
 
 `Testing Library`
 
--   If you prefer more granular control of which files
-    `eslint-plugin-testing-library` considers for test files and lints
-    you can change `"files"` field.
+-   If you prefer more granular control of which files `eslint-plugin-testing-library` considers for test
+    files and lints you can change `"files"` field.
 
 ```json
 {
     "overrides": [
         {
-            "files": [
-                "**/__tests__/**/*.[jt]s?(x)",
-                "**/?(*.)+(spec|test).[jt]s?(x)"
-            ],
+            "files": ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"],
             "extends": ["@rimac-technology/eslint-config/testing-library"]
         }
     ]
@@ -91,8 +86,7 @@ Add the following ruleset to your `.eslintrc.json` file under
 
 ## Overriding or Adding Custom Rules
 
-Rules can be overridden by adding them to the
-`rules` section in `.eslintrc.json` like the following example
+Rules can be overridden by adding them to the `rules` section in `.eslintrc.json` like the following example
 
 ```json
 {
@@ -115,8 +109,8 @@ Little fellow sometimes has problems. Here is how to help if it doesn't work:
 
 ## Testing Locally
 
-In `package.json`, specify the path to the folder where you cloned `eslint-config`
-on your computer and place it instead of the version.
+In `package.json`, specify the path to the folder where you cloned `eslint-config` on your computer and place
+it instead of the version.
 
 Then you can use it like any other lib.
 

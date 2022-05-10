@@ -1433,6 +1433,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: ^1.4.0
     eslint-plugin-sort-keys-fix: ^1.1.2
     eslint-plugin-testing-library: ^5.0.6
+    eslint-plugin-todos: ^0.1.0
     eslint-plugin-type-graphql: ^1.0.0
     eslint-plugin-typescript-sort-keys: ^2.1.0
     eslint-plugin-unicorn: ^41.0.0
@@ -3622,6 +3623,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ellipsize@npm:0.1.0":
+  version: 0.1.0
+  resolution: "ellipsize@npm:0.1.0"
+  checksum: 2b2a78259206ead8a2f7b49b4c389dd8de32619ec1304eb042905a2c8b8b11b6a34f7e5f65ed43f29c9472af29531bb683e5a395e7b3dd51be95dd8096ccd426
+  languageName: node
+  linkType: hard
+
 "emittery@npm:^0.8.1":
   version: 0.8.1
   resolution: "emittery@npm:0.8.1"
@@ -4008,6 +4016,19 @@ __metadata:
   peerDependencies:
     eslint: ^7.5.0 || ^8.0.0
   checksum: 8c9db0f535f807c7b2b23474c216a7239dbe21c5147e4d694f4a49f0e61c85a4ec8c2e77bc16ccb0a2c19e599f519bbf8108370d4721c4f17400bed170ec74aa
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-todos@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "eslint-plugin-todos@npm:0.1.0"
+  dependencies:
+    ellipsize: 0.1.0
+    lodash: ^4.17.15
+    read-pkg-up: ^7.0.1
+  peerDependencies:
+    eslint: ^6.8.0
+  checksum: 22e7b7cb5ff5559f54ef48cf9ff9acbfb806810dfd0c749ad1e9ae33dba40d2550cf43c73b202c1ff797b343039f42c7a2eb2ffb52da31469e0897c9d528dc1a
   languageName: node
   linkType: hard
 
