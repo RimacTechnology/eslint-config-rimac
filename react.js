@@ -73,11 +73,11 @@ module.exports = {
         ],
         'react/jsx-no-comment-textnodes': 'error',
         'react/jsx-no-duplicate-props': 'error',
-        'react/jsx-no-useless-fragment': ['error', { 'allowExpressions': true }],
-        "react/jsx-no-leaked-render": [
-            "error",
-            { "validStrategies": ["ternary"] }
+        'react/jsx-no-leaked-render': [
+            'error',
+            { 'validStrategies': ['ternary'] },
         ],
+        'react/jsx-no-useless-fragment': ['error', { 'allowExpressions': true }],
         'react/jsx-one-expression-per-line': 'error',
         'react/jsx-pascal-case': 'error',
         'react/jsx-props-no-multi-spaces': 'error',
