@@ -45,6 +45,10 @@ module.exports = {
             },
         ],
         '@typescript-eslint/comma-spacing': 'error',
+        '@typescript-eslint/consistent-generic-constructors': [
+            'error',
+            'constructor',
+        ],
         '@typescript-eslint/consistent-indexed-object-style': 'error',
         '@typescript-eslint/consistent-type-imports': [
             'error',
@@ -75,7 +79,6 @@ module.exports = {
         ],
         '@typescript-eslint/no-confusing-non-null-assertion': 'error',
         '@typescript-eslint/no-confusing-void-expression': 'error',
-        '@typescript-eslint/no-duplicate-imports': 'error',
         '@typescript-eslint/no-empty-function': 'warn',
         '@typescript-eslint/no-empty-interface': [
             'error',
@@ -265,7 +268,6 @@ module.exports = {
         'no-dupe-else-if': 'error',
         'no-dupe-keys': 'error',
         'no-duplicate-case': 'error',
-        'no-duplicate-imports': 'off',
         'no-empty': 'error',
         'no-empty-function': 'off',
         'no-empty-pattern': 'error',
