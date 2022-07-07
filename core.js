@@ -430,9 +430,9 @@ module.exports = {
         'space-infix-ops': 'off',
         'template-curly-spacing': 'error',
         'todos/only-documented-todos': [
-            'warn',
+            'error',
             {
-                'location': 'start',
+                'location': 'anywhere',
                 'terms': ['todo', 'fixme'],
             },
         ],
