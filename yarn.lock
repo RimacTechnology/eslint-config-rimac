@@ -179,6 +179,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/helper-validator-identifier@npm:^7.18.6":
+  version: 7.18.6
+  resolution: "@babel/helper-validator-identifier@npm:7.18.6"
+  checksum: e295254d616bbe26e48c196a198476ab4d42a73b90478c9842536cf910ead887f5af6b5c4df544d3052a25ccb3614866fa808dc1e3a5a4291acd444e243c0648
+  languageName: node
+  linkType: hard
+
 "@babel/helper-validator-option@npm:^7.16.7":
   version: 7.16.7
   resolution: "@babel/helper-validator-option@npm:7.16.7"
@@ -1427,16 +1434,16 @@ __metadata:
     eslint-plugin-more: ^1.0.5
     eslint-plugin-promise: ^6.0.0
     eslint-plugin-react: ^7.30.1
-    eslint-plugin-react-hooks: ^4.3.0
-    eslint-plugin-sonarjs: ^0.12.0
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-sonarjs: ^0.13.0
     eslint-plugin-sort-class-members: ^1.14.1
     eslint-plugin-sort-destructure-keys: ^1.4.0
     eslint-plugin-sort-keys-fix: ^1.1.2
-    eslint-plugin-testing-library: ^5.0.6
+    eslint-plugin-testing-library: ^5.5.1
     eslint-plugin-todos: ^0.1.0
     eslint-plugin-type-graphql: ^1.0.0
     eslint-plugin-typescript-sort-keys: ^2.1.0
-    eslint-plugin-unicorn: ^41.0.0
+    eslint-plugin-unicorn: ^43.0.0
     eslint-plugin-unused-imports: ^2.0.0
     eslint-plugin-workspaces: ^0.7.0
     husky: ^7.0.4
@@ -3022,6 +3029,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ci-info@npm:^3.3.2":
+  version: 3.3.2
+  resolution: "ci-info@npm:3.3.2"
+  checksum: fd81f1edd2d3b0f6cb077b2e84365136d87b9db8c055928c1ad69da8a76c2c2f19cba8ea51b90238302157ca927f91f92b653e933f2398dde4867500f08d6e62
+  languageName: node
+  linkType: hard
+
 "cidr-regex@npm:^3.1.1":
   version: 3.1.1
   resolution: "cidr-regex@npm:3.1.1"
@@ -4203,6 +4217,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-react-hooks@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "eslint-plugin-react-hooks@npm:4.6.0"
+  peerDependencies:
+    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
+  checksum: 23001801f14c1d16bf0a837ca7970d9dd94e7b560384b41db378b49b6e32dc43d6e2790de1bd737a652a86f81a08d6a91f402525061b47719328f586a57e86c3
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-react@npm:^7.29.3":
   version: 7.29.3
   resolution: "eslint-plugin-react@npm:7.29.3"
@@ -4260,6 +4283,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-sonarjs@npm:^0.13.0":
+  version: 0.13.0
+  resolution: "eslint-plugin-sonarjs@npm:0.13.0"
+  peerDependencies:
+    eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
+  checksum: f1cbb33b010c663150c3866e5fdbad2398658e279405d863f48da98edb0438b0ea68732e263f5c939d3d6f2d9a785f80c10234c1b229873b6ee44c24fd6e0cd1
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-sort-class-members@npm:^1.14.1":
   version: 1.14.1
   resolution: "eslint-plugin-sort-class-members@npm:1.14.1"
@@ -4300,6 +4332,17 @@ __metadata:
   peerDependencies:
     eslint: ^7.5.0 || ^8.0.0
   checksum: 8c9db0f535f807c7b2b23474c216a7239dbe21c5147e4d694f4a49f0e61c85a4ec8c2e77bc16ccb0a2c19e599f519bbf8108370d4721c4f17400bed170ec74aa
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-testing-library@npm:^5.5.1":
+  version: 5.5.1
+  resolution: "eslint-plugin-testing-library@npm:5.5.1"
+  dependencies:
+    "@typescript-eslint/utils": ^5.13.0
+  peerDependencies:
+    eslint: ^7.5.0 || ^8.0.0
+  checksum: 558994da12e6a9ff0c4f71c2e63a23746b6323d171062032843591e0fca6ce3811f979cf82e11db003c8b4f1d9842cb75301bfaa9e88d1a399b11ea6686aadcc
   languageName: node
   linkType: hard
 
@@ -4364,6 +4407,30 @@ __metadata:
   peerDependencies:
     eslint: ">=8.8.0"
   checksum: 661d572b244f9f61121806cb0b9b4914f37e978089633e8b401d95b736f5acb9ed70f398de9cebcdbb1456961e7360c2b196483a793f6f1613c2a4989a298488
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-unicorn@npm:^43.0.0":
+  version: 43.0.0
+  resolution: "eslint-plugin-unicorn@npm:43.0.0"
+  dependencies:
+    "@babel/helper-validator-identifier": ^7.18.6
+    ci-info: ^3.3.2
+    clean-regexp: ^1.0.0
+    eslint-utils: ^3.0.0
+    esquery: ^1.4.0
+    indent-string: ^4.0.0
+    is-builtin-module: ^3.1.0
+    lodash: ^4.17.21
+    pluralize: ^8.0.0
+    read-pkg-up: ^7.0.1
+    regexp-tree: ^0.1.24
+    safe-regex: ^2.1.1
+    semver: ^7.3.7
+    strip-indent: ^3.0.0
+  peerDependencies:
+    eslint: ">=8.18.0"
+  checksum: 5e9da1a37922483f8e945878d870bcc617b2c6a5fd3d1a453ccc327c33a0f56206968bc702dc08b3e3098b9ae0b13a55842c8516f79509bc212eba7256f57438
   languageName: node
   linkType: hard
 
