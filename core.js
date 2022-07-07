@@ -464,6 +464,7 @@ module.exports = {
         'unicorn/no-useless-length-check': 'error',
         'unicorn/no-useless-promise-resolve-reject': 'error',
         'unicorn/no-useless-spread': 'error',
+        'unicorn/no-unreadable-iife': 'error',
         'unicorn/no-zero-fractions': 'error',
         'unicorn/numeric-separators-style': 'error',
         'unicorn/prefer-array-find': 'error',
