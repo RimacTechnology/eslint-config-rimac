@@ -1,3 +1,32 @@
+# [26.0.0](https://github.com/RimacTechnology/eslint-config-rimac/compare/v25.0.0...v26.0.0) (2022-07-11)
+
+
+### Bug Fixes
+
+* **core:** make todo rule error instead of warn ([44e2f47](https://github.com/RimacTechnology/eslint-config-rimac/commit/44e2f473ebe2fa12eba77f846bf1f1ccba313f7e))
+
+
+### Features
+
+* **chore:** disallow unreadable IFFEs ([6b316bd](https://github.com/RimacTechnology/eslint-config-rimac/commit/6b316bd31dab92535a5208d9b24be5167330507c))
+* **core:** add @typescript-eslint/consistent-generic-constructors ([2720f04](https://github.com/RimacTechnology/eslint-config-rimac/commit/2720f040d561683491e1ff0453e2116788f8aa64))
+* **core:** add prefer-logical-operator-over-ternary ([eb04a7a](https://github.com/RimacTechnology/eslint-config-rimac/commit/eb04a7afe5dbbf39cb3772e4fc4e1fa8120eab03))
+* **core:** perfer modern math apis ([1ac8261](https://github.com/RimacTechnology/eslint-config-rimac/commit/1ac82614bd2078bc6e4f0bedaacacc6edf8b67f0))
+* **jest:** add jest/prefer-hooks-in-order ([f6afc5a](https://github.com/RimacTechnology/eslint-config-rimac/commit/f6afc5aefa446c245a7b2652a96cfed018e14f8a))
+* **react:** enforce using ternary for conditional rendering ([3c79f96](https://github.com/RimacTechnology/eslint-config-rimac/commit/3c79f96b6869597bb180b06d94cd0f453871ef2e))
+
+
+### BREAKING CHANGES
+
+* **chore:** disallow unreadable IFFEs
+* **core:** modern math APIs now have to be used over the legacy ones
+* **core:** logical operator is now preferred if it makes sense
+* **react:** conditional rendering must be done via a ternary operator
+* **jest:** jest hooks now have to be setup in the order jest calls
+them
+* **core:** generic type declarations now have to specified in a certain way
+* **core:** Todos now require links and will error if not present
+
 # [25.0.0](https://github.com/RimacTechnology/eslint-config-rimac/compare/v24.0.0...v25.0.0) (2022-05-10)
 
 
