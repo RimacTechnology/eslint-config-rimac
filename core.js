@@ -45,6 +45,10 @@ module.exports = {
             },
         ],
         '@typescript-eslint/comma-spacing': 'error',
+        '@typescript-eslint/consistent-generic-constructors': [
+            'error',
+            'constructor',
+        ],
         '@typescript-eslint/consistent-indexed-object-style': 'error',
         '@typescript-eslint/consistent-type-imports': [
             'error',
@@ -75,7 +79,6 @@ module.exports = {
         ],
         '@typescript-eslint/no-confusing-non-null-assertion': 'error',
         '@typescript-eslint/no-confusing-void-expression': 'error',
-        '@typescript-eslint/no-duplicate-imports': 'error',
         '@typescript-eslint/no-empty-function': 'warn',
         '@typescript-eslint/no-empty-interface': [
             'error',
@@ -265,7 +268,6 @@ module.exports = {
         'no-dupe-else-if': 'error',
         'no-dupe-keys': 'error',
         'no-duplicate-case': 'error',
-        'no-duplicate-imports': 'off',
         'no-empty': 'error',
         'no-empty-function': 'off',
         'no-empty-pattern': 'error',
@@ -430,9 +432,9 @@ module.exports = {
         'space-infix-ops': 'off',
         'template-curly-spacing': 'error',
         'todos/only-documented-todos': [
-            'warn',
+            'error',
             {
-                'location': 'start',
+                'location': 'anywhere',
                 'terms': ['todo', 'fixme'],
             },
         ],
@@ -457,6 +459,7 @@ module.exports = {
         'unicorn/no-object-as-default-parameter': 'error',
         'unicorn/no-this-assignment': 'error',
         'unicorn/no-unreadable-array-destructuring': 'error',
+        'unicorn/no-unreadable-iife': 'error',
         'unicorn/no-unsafe-regex': 'error',
         'unicorn/no-useless-fallback-in-spread': 'error',
         'unicorn/no-useless-length-check': 'error',
@@ -471,8 +474,10 @@ module.exports = {
         'unicorn/prefer-default-parameters': 'error',
         'unicorn/prefer-export-from': 'error',
         'unicorn/prefer-keyboard-event-key': 'error',
+        'unicorn/prefer-logical-operator-over-ternary': 'error',
         'unicorn/prefer-math-trunc': 'error',
         'unicorn/prefer-modern-dom-apis': 'error',
+        'unicorn/prefer-modern-math-apis': 'error',
         'unicorn/prefer-negative-index': 'error',
         'unicorn/prefer-number-properties': 'error',
         'unicorn/prefer-optional-catch-binding': 'error',
