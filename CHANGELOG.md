@@ -1,3 +1,5 @@
+## [26.0.1](https://github.com/RimacTechnology/eslint-config-rimac/compare/v26.0.0...v26.0.1) (2022-07-12)
+
 # [26.0.0](https://github.com/RimacTechnology/eslint-config-rimac/compare/v25.0.0...v26.0.0) (2022-07-11)
 
 
