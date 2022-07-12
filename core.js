@@ -27,9 +27,12 @@ module.exports = {
         'etc',
         '@rimac-technology',
         'eslint-comments',
-        'todos',
     ],
     'rules': {
+        '@rimac-technology/document-todos': [
+            'error',
+            { url: 'https://rimac-automobili.atlassian.net' },
+        ],
         '@rimac-technology/import-declaration-newline': 'error',
         '@typescript-eslint/await-thenable': 'error',
         '@typescript-eslint/ban-types': 'warn',
@@ -431,13 +434,6 @@ module.exports = {
         'space-in-parens': 'error',
         'space-infix-ops': 'off',
         'template-curly-spacing': 'error',
-        'todos/only-documented-todos': [
-            'error',
-            {
-                'location': 'anywhere',
-                'terms': ['todo', 'fixme'],
-            },
-        ],
         'typescript-sort-keys/interface': 'error',
         'typescript-sort-keys/string-enum': 'error',
         'unicorn/better-regex': 'error',
