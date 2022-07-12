@@ -31,7 +31,7 @@ module.exports = {
     'rules': {
         '@rimac-technology/document-todos': [
             'error',
-            { url: 'https://rimac-automobili.atlassian.net/jira/software/c/projects' },
+            { url: 'https://rimac-automobili.atlassian.net' },
         ],
         '@rimac-technology/import-declaration-newline': 'error',
         '@typescript-eslint/await-thenable': 'error',

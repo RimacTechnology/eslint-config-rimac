@@ -74,7 +74,7 @@ module.exports = {
         'react/jsx-no-comment-textnodes': 'error',
         'react/jsx-no-duplicate-props': 'error',
         'react/jsx-no-leaked-render': [
-            'error',
+            'off',
             { 'validStrategies': ['ternary'] },
         ],
         'react/jsx-no-useless-fragment': ['error', { 'allowExpressions': true }],
